@@ -2,110 +2,42 @@
   "api": {
     "crossOriginIsolated": {
       "__compat": {
-        "mdn_url": "https://developer.mozilla.org/docs/Web/API/crossOriginIsolated",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/Window/crossOriginIsolated",
         "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#dom-crossoriginisolated-dev",
         "support": {
           "chrome": {
             "version_added": "87"
           },
-          "chrome_android": {
-            "version_added": "87"
-          },
+          "chrome_android": "mirror",
           "deno": {
             "version_added": false
           },
-          "edge": {
-            "version_added": "87"
-          },
+          "edge": "mirror",
           "firefox": {
             "version_added": "72"
           },
-          "firefox_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
           "nodejs": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "73"
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "15.2"
           },
-          "safari_ios": {
-            "version_added": "15.2"
-          },
-          "samsunginternet_android": {
-            "version_added": "14.0"
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
-          "standard_track": false,
+          "experimental": false,
+          "standard_track": true,
           "deprecated": false
-        }
-      },
-      "worker_support": {
-        "__compat": {
-          "description": "Available in workers",
-          "support": {
-            "chrome": {
-              "version_added": "87"
-            },
-            "chrome_android": {
-              "version_added": "87"
-            },
-            "deno": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": "87"
-            },
-            "firefox": {
-              "version_added": "72"
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "nodejs": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "73"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
         }
       }
     }

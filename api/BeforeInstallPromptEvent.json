@@ -5,41 +5,29 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent",
         "support": {
           "chrome": {
-            "version_added": "45"
+            "version_added": "44"
           },
-          "chrome_android": {
-            "version_added": "45"
-          },
-          "edge": {
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": false
           },
-          "firefox_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
+          "safari_ios": "mirror",
           "samsunginternet_android": {
             "version_added": "5.0"
           },
-          "webview_android": {
-            "version_added": "45"
-          }
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -49,45 +37,33 @@
       },
       "BeforeInstallPromptEvent": {
         "__compat": {
+          "description": "`BeforeInstallPromptEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent/BeforeInstallPromptEvent",
-          "description": "<code>BeforeInstallPromptEvent()</code> constructor",
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "44"
             },
-            "chrome_android": {
-              "version_added": "45"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "5.0"
             },
-            "webview_android": {
-              "version_added": "45"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -101,41 +77,29 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent/platforms",
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "44"
             },
-            "chrome_android": {
-              "version_added": "45"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "5.0"
             },
-            "webview_android": {
-              "version_added": "45"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -148,42 +112,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent/prompt",
           "support": {
-            "chrome": {
-              "version_added": "45"
-            },
-            "chrome_android": {
-              "version_added": "45"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome": [
+              {
+                "version_added": "76"
+              },
+              {
+                "version_added": "44",
+                "version_removed": "76",
+                "partial_implementation": true,
+                "notes": "Resolved with an empty promise."
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "5.0"
             },
-            "webview_android": {
-              "version_added": "45"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -197,41 +157,29 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent/userChoice",
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "44"
             },
-            "chrome_android": {
-              "version_added": "45"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "5.0"
             },
-            "webview_android": {
-              "version_added": "45"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

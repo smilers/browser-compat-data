@@ -4,44 +4,37 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange",
         "spec_url": "https://dom.spec.whatwg.org/#interface-staticrange",
+        "tags": [
+          "web-features:selection-api"
+        ],
         "support": {
           "chrome": {
             "version_added": "60"
           },
-          "chrome_android": {
-            "version_added": "60"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "18"
           },
           "firefox": {
             "version_added": "69",
-            "notes": "In Firefox, <code>StaticRange</code> can currently only be used by browser-internal code or code with enhanced permissions; it is not yet exposed to the web."
+            "notes": "In Firefox, `StaticRange` can currently only be used by browser-internal code or code with enhanced permissions; it is not yet exposed to the web."
           },
           "firefox_android": {
-            "version_added": false
+            "version_added": "79"
           },
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "47"
-          },
-          "opera_android": {
-            "version_added": "44"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "10.1"
           },
-          "safari_ios": {
-            "version_added": "10.3"
-          },
-          "samsunginternet_android": {
-            "version_added": "8.0"
-          },
-          "webview_android": {
-            "version_added": "60"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -51,46 +44,35 @@
       },
       "StaticRange": {
         "__compat": {
+          "description": "`StaticRange()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/StaticRange",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-staticrange-staticrange①",
-          "description": "<code>StaticRange()</code> constructor",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "90"
             },
-            "chrome_android": {
-              "version_added": "90"
-            },
-            "edge": {
-              "version_added": "90"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "71"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "76"
-            },
-            "opera_android": {
-              "version_added": "64"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "13.1"
             },
-            "safari_ios": {
-              "version_added": "13.4"
-            },
-            "samsunginternet_android": {
-              "version_added": "15.0"
-            },
-            "webview_android": {
-              "version_added": "90"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -103,43 +85,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/collapsed",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-collapsed①",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "18"
             },
             "firefox": {
               "version_added": "69"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -152,43 +125,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/endContainer",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "18"
             },
             "firefox": {
               "version_added": "69"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -201,43 +165,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/endOffset",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "18"
             },
             "firefox": {
               "version_added": "69"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -250,43 +205,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/startContainer",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-startcontainer①",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "18"
             },
             "firefox": {
               "version_added": "69"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -299,43 +245,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/startOffset",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-startoffset①",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "18"
             },
             "firefox": {
               "version_added": "69"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

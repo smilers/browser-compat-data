@@ -5,13 +5,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
           "spec_url": "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-rangeerror",
+          "tags": [
+            "web-features:snapshot:ecmascript-3",
+            "web-features:javascript"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,15 +23,14 @@
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "5.5"
             },
             "nodejs": {
               "version_added": "0.10.0"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "5"
             },
@@ -39,15 +40,10 @@
             "safari": {
               "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -57,16 +53,18 @@
         },
         "RangeError": {
           "__compat": {
-            "description": "<code>RangeError()</code> constructor",
+            "description": "`RangeError()` constructor",
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RangeError/RangeError",
             "spec_url": "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
+            "tags": [
+              "web-features:snapshot:ecmascript-3",
+              "web-features:javascript"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -76,15 +74,14 @@
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "5.5"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "5"
               },
@@ -94,15 +91,60 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "serializable_object": {
+          "__compat": {
+            "description": "`RangeError` is serializable",
+            "mdn_url": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
+            "spec_url": "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects",
+            "tags": [
+              "web-features:serializable-errors"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "77"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": false
               },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "103",
+                "notes": [
+                  "Version 103 serializable properties: `name`, `message`, `cause`, `fileName`, `lineNumber` and `columnNumber`.",
+                  "Version 104 also serializes `stack` in the main thread ([`window.postMessage()`](https://developer.mozilla.org/docs/Web/API/Window/postMessage) and [`structuredClone()`](https://developer.mozilla.org/docs/Web/API/structuredClone)).",
+                  "Version 110 also serializes `stack` in workers ([`worker.postMessage()`](https://developer.mozilla.org/docs/Web/API/Worker/postMessage) and [`structuredClone()`](https://developer.mozilla.org/docs/Web/API/structuredClone))."
+                ]
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

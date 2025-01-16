@@ -5,13 +5,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
           "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset-objects",
+          "tags": [
+            "web-features:snapshot:ecmascript-2015",
+            "web-features:weakset"
+          ],
           "support": {
             "chrome": {
               "version_added": "36"
             },
-            "chrome_android": {
-              "version_added": "36"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,33 +23,23 @@
             "firefox": {
               "version_added": "34"
             },
-            "firefox_android": {
-              "version_added": "34"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
             "nodejs": {
               "version_added": "0.12.0"
             },
-            "opera": {
-              "version_added": "23"
-            },
-            "opera_android": {
-              "version_added": "24"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "9"
             },
-            "safari_ios": {
-              "version_added": "9"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": "37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -57,16 +49,18 @@
         },
         "WeakSet": {
           "__compat": {
-            "description": "<code>WeakSet()</code> constructor",
+            "description": "`WeakSet()` constructor",
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/WeakSet",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset-constructor",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:weakset"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -76,33 +70,23 @@
               "firefox": {
                 "version_added": "34"
               },
-              "firefox_android": {
-                "version_added": "34"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9"
               },
-              "safari_ios": {
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -112,14 +96,16 @@
           },
           "iterable_allowed": {
             "__compat": {
-              "description": "<code>new WeakSet(iterable)</code>",
+              "description": "`new WeakSet(iterable)`",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:weakset"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "38"
                 },
-                "chrome_android": {
-                  "version_added": "38"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -129,33 +115,23 @@
                 "firefox": {
                   "version_added": "34"
                 },
-                "firefox_android": {
-                  "version_added": "34"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "0.12.0"
                 },
-                "opera": {
-                  "version_added": "25"
-                },
-                "opera_android": {
-                  "version_added": "25"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "9"
                 },
-                "safari_ios": {
-                  "version_added": "9"
-                },
-                "samsunginternet_android": {
-                  "version_added": "3.0"
-                },
-                "webview_android": {
-                  "version_added": "38"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -166,14 +142,16 @@
           },
           "null_allowed": {
             "__compat": {
-              "description": "<code>new WeakSet(null)</code>",
+              "description": "`new WeakSet(null)`",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:weakset"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "36"
                 },
-                "chrome_android": {
-                  "version_added": "36"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -183,33 +161,23 @@
                 "firefox": {
                   "version_added": "37"
                 },
-                "firefox_android": {
-                  "version_added": "37"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "0.12.0"
                 },
-                "opera": {
-                  "version_added": "23"
-                },
-                "opera_android": {
-                  "version_added": "24"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "9"
                 },
-                "safari_ios": {
-                  "version_added": "9"
-                },
-                "samsunginternet_android": {
-                  "version_added": "3.0"
-                },
-                "webview_android": {
-                  "version_added": "37"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -223,13 +191,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/add",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.add",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:weakset"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -239,33 +209,23 @@
               "firefox": {
                 "version_added": "34"
               },
-              "firefox_android": {
-                "version_added": "34"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9"
               },
-              "safari_ios": {
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -278,13 +238,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/delete",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.delete",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:weakset"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -294,33 +256,23 @@
               "firefox": {
                 "version_added": "34"
               },
-              "firefox_android": {
-                "version_added": "34"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9"
               },
-              "safari_ios": {
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -333,13 +285,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/has",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.has",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:weakset"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -349,33 +303,68 @@
               "firefox": {
                 "version_added": "34"
               },
-              "firefox_android": {
-                "version_added": "34"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9"
               },
-              "safari_ios": {
-                "version_added": "9"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "symbol_as_keys": {
+          "__compat": {
+            "description": "Non-registered symbols as keys",
+            "tags": [
+              "web-features:snapshot:ecmascript-2023",
+              "web-features:weakset"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "109"
               },
-              "samsunginternet_android": {
-                "version_added": "3.0"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.28"
               },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false,
+                "impl_url": "https://bugzil.la/1710433"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "20.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "16.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

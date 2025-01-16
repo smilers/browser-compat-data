@@ -4,28 +4,24 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList",
         "spec_url": "https://wicg.github.io/speech-api/#speechgrammarlist",
+        "tags": [
+          "web-features:speech-recognition"
+        ],
         "support": {
           "chrome": {
             "prefix": "webkit",
             "version_added": "33"
           },
-          "chrome_android": {
-            "prefix": "webkit",
-            "version_added": "33"
-          },
-          "edge": {
-            "prefix": "webkit",
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": false
           },
-          "firefox_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": false
           },
@@ -35,17 +31,10 @@
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "prefix": "webkit",
-            "version_added": "2.0"
-          },
-          "webview_android": {
-            "prefix": "webkit",
-            "version_added": "4.4.3"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -55,31 +44,27 @@
       },
       "SpeechGrammarList": {
         "__compat": {
+          "description": "`SpeechGrammarList()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/SpeechGrammarList",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammarlist-speechgrammarlist",
-          "description": "<code>SpeechGrammarList()</code> constructor",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
               "prefix": "webkit",
               "version_added": "33"
             },
-            "chrome_android": {
-              "prefix": "webkit",
-              "version_added": "33"
-            },
-            "edge": {
-              "prefix": "webkit",
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -89,17 +74,10 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "prefix": "webkit",
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "prefix": "webkit",
-              "version_added": "4.4.3"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -112,25 +90,23 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromString",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromstring",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -140,15 +116,10 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "version_added": "4.4.3"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -161,25 +132,23 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromURI",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromuri",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -189,15 +158,10 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "version_added": "4.4.3"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -210,25 +174,23 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/item",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammarlist-item",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -238,15 +200,10 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "version_added": "4.4.3"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -259,25 +216,23 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/length",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammarlist-length",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -287,15 +242,10 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "version_added": "4.4.3"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

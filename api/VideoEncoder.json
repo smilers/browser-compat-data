@@ -4,18 +4,17 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder",
         "spec_url": "https://w3c.github.io/webcodecs/#videoencoder-interface",
+        "tags": [
+          "web-features:webcodecs"
+        ],
         "support": {
           "chrome": {
             "version_added": "94"
           },
-          "chrome_android": {
-            "version_added": "94"
-          },
-          "edge": {
-            "version_added": "94"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": "130"
           },
           "firefox_android": {
             "version_added": false
@@ -23,48 +22,39 @@
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "80"
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": "16.4"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": "94"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
       },
       "VideoEncoder": {
         "__compat": {
+          "description": "`VideoEncoder()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/VideoEncoder",
-          "description": "<code>VideoEncoder()</code> constructor",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-videoencoder",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -72,27 +62,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -102,18 +84,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/close",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-close",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -121,27 +102,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -151,18 +124,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/configure",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-configure",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -170,27 +142,60 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "dequeue_event": {
+        "__compat": {
+          "description": "`dequeue` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/dequeue_event",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videodecoder-ondequeue",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "106"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -200,18 +205,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/encode",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-encode",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -219,27 +223,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -249,18 +245,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/encodeQueueSize",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-encodequeuesize",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -268,27 +263,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -296,19 +283,19 @@
       },
       "flush": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/flush",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-flush",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -316,47 +303,40 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
         }
       },
-      "isConfigSupported": {
+      "isConfigSupported_static": {
         "__compat": {
+          "description": "`isConfigSupported()` static method",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/isConfigSupported_static",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-isconfigsupported",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -364,27 +344,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -394,18 +366,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/reset",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-reset",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -413,27 +384,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -443,18 +406,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/state",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoencoder-state",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
@@ -462,27 +424,19 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

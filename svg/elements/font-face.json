@@ -7,41 +7,29 @@
           "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElement",
           "support": {
             "chrome": {
-              "version_added": null
+              "version_added": "1",
+              "version_removed": "40"
             },
-            "chrome_android": {
-              "version_added": null
-            },
-            "edge": {
-              "version_added": null
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
-            "firefox_android": {
-              "version_added": null
-            },
+            "firefox_android": "mirror",
             "ie": {
-              "version_added": null
+              "version_added": false
             },
-            "opera": {
-              "version_added": null
-            },
-            "opera_android": {
-              "version_added": null
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": null
+              "version_added": "3",
+              "version_removed": "16.4"
             },
-            "safari_ios": {
-              "version_added": null
-            },
-            "samsunginternet_android": {
-              "version_added": null
-            },
-            "webview_android": {
-              "version_added": null
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -55,41 +43,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAccentHeightAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -104,41 +80,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAlphabeticAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -153,41 +117,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAscentAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -202,41 +154,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementBboxAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -251,41 +191,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementCapHeightAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -300,41 +228,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementDescentAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -349,41 +265,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontFamilyAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -398,41 +302,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontSizeAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -447,41 +339,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontStretchAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -496,41 +376,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontStyleAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -545,41 +413,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontVariantAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -594,41 +450,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontWeightAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -643,41 +487,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementHangingAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -692,41 +524,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementIdeographicAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -741,41 +561,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementMathematicalAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -790,41 +598,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementOverlinePositionAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -839,41 +635,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementOverlineThicknessAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -888,41 +672,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementPanose1Attribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -937,41 +709,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementSlopeAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -986,41 +746,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStemhAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1035,41 +783,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStemvAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1084,41 +820,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStrikeThroughPositionAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1133,41 +857,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStrikeThroughThicknessAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1182,41 +894,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnderlinePositionAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1231,41 +931,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnderlineThicknessAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1280,41 +968,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnicodeRangeAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1329,41 +1005,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnitsPerEmAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1378,41 +1042,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertAlphabeticAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1427,41 +1079,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertHangingAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1476,41 +1116,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertIdeographicAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1525,41 +1153,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertMathematicalAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1574,41 +1190,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementWidthsAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1623,41 +1227,29 @@
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementXHeightAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1",
+                "version_removed": "40"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3",
+                "version_removed": "16.4"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

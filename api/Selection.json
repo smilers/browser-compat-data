@@ -4,27 +4,25 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection",
         "spec_url": "https://w3c.github.io/selection-api/#selection-interface",
+        "tags": [
+          "web-features:selection-api"
+        ],
         "support": {
           "chrome": {
             "version_added": "1"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "12"
           },
           "firefox": {
-            "version_added": "1",
-            "notes": "The <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectionchange'><code>GlobalEventHandlers.onselectionchange</code></a> and <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectstart'><code>GlobalEventHandlers.onselectstart</code></a> event handlers are supported as of Firefox 52."
+            "version_added": "1"
           },
-          "firefox_android": {
-            "version_added": "4",
-            "notes": "The <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectionchange'><code>GlobalEventHandlers.onselectionchange</code></a> and <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectstart'><code>GlobalEventHandlers.onselectstart</code></a> event handlers are supported as of Firefox 52."
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "9"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "9"
           },
@@ -34,15 +32,10 @@
           "safari": {
             "version_added": "1.3"
           },
-          "safari_ios": {
-            "version_added": "1"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "1"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -54,25 +47,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/addRange",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-addrange",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -85,12 +78,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -103,25 +93,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/anchorNode",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-anchornode",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -131,15 +121,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -152,25 +137,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/anchorOffset",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-anchoroffset",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -180,15 +165,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -201,25 +181,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/collapse",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-collapse",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -229,15 +209,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -245,46 +220,68 @@
             "deprecated": false
           }
         },
+        "accepts_nodes_in_shadow_trees": {
+          "__compat": {
+            "description": "Accepts `node` parameter in any tree/shadow tree",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
         "node_parameter_nullable": {
           "__compat": {
-            "description": "<code>node</code> parameter is nullable",
+            "description": "`node` parameter is nullable",
             "support": {
               "chrome": {
                 "version_added": "39"
               },
-              "chrome_android": {
-                "version_added": "39"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤79"
               },
               "firefox": {
                 "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": "55"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "26"
-              },
-              "opera_android": {
-                "version_added": "26"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.3"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "4.0"
-              },
-              "webview_android": {
-                "version_added": "39"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -295,26 +292,23 @@
         },
         "offset_parameter_optional": {
           "__compat": {
-            "description": "<code>offset</code> parameter is optional",
+            "description": "`offset` parameter is optional",
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤79"
               },
               "firefox": {
                 "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": "55"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤15"
               },
@@ -324,15 +318,10 @@
               "safari": {
                 "version_added": "1.3"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -346,25 +335,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/collapseToEnd",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-collapsetoend",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -374,15 +363,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -395,25 +379,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/collapseToStart",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-collapsetostart",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -423,15 +407,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -444,27 +423,26 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/containsNode",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-containsnode",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1",
-              "notes": "Before Firefox 35, the method didn't throw if <code>node</code> was <code>null</code>."
+              "notes": "Before Firefox 35, the method didn't throw if `node` was `null`."
             },
-            "firefox_android": {
-              "version_added": "4",
-              "notes": "Before Firefox 35, the method didn't throw if <code>node</code> was <code>null</code>."
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -474,15 +452,10 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -492,26 +465,23 @@
         },
         "partialContainment_parameter_optional": {
           "__compat": {
-            "description": "<code>partialContainment</code> parameter is optional",
+            "description": "`partialContainment` parameter is optional",
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤79"
               },
               "firefox": {
                 "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": "55"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤15"
               },
@@ -521,15 +491,12 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "≤37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -543,25 +510,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/deleteFromDocument",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-deletefromdocument",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -571,15 +538,48 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "direction": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/direction",
+          "spec_url": "https://w3c.github.io/selection-api/#dom-selection-direction",
+          "tags": [
+            "web-features:selection-api"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "126"
             },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "17"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -590,46 +590,37 @@
       },
       "empty": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/removeAllRanges",
+          "description": "`empty()` as alias of `removeAllRanges()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/empty",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-removeallranges",
-          "description": "<code>empty()</code> as alias of <code>removeAllRanges()</code>",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -642,25 +633,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/extend",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-extend",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -670,15 +661,10 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -686,28 +672,59 @@
             "deprecated": false
           }
         },
+        "accepts_nodes_in_shadow_trees": {
+          "__compat": {
+            "description": "Accepts `node` parameter in any tree/shadow tree",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
         "offset_parameter_optional": {
           "__compat": {
-            "description": "<code>offset</code> parameter is optional",
+            "description": "`offset` parameter is optional",
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤79"
               },
               "firefox": {
                 "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": "55"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤15"
               },
@@ -717,15 +734,12 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "≤37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -739,25 +753,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/focusNode",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-focusnode",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -767,15 +781,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -788,25 +797,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/focusOffset",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-focusoffset",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -816,15 +825,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -833,29 +837,101 @@
           }
         }
       },
+      "getComposedRanges": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/getComposedRanges",
+          "spec_url": "https://w3c.github.io/selection-api/#dom-selection-getcomposedranges",
+          "tags": [
+            "web-features:composed-ranges"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "preview"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "17"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "returns_multiple_ranges": {
+          "__compat": {
+            "description": "Returned array can contain multiple ranges",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": false,
+              "deprecated": false
+            }
+          }
+        }
+      },
       "getRangeAt": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/getRangeAt",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-getrangeat",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -868,12 +944,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -886,25 +959,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/isCollapsed",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-iscollapsed",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -914,15 +987,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -934,47 +1002,37 @@
       "modify": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/modify",
+          "spec_url": "https://w3c.github.io/selection-api/#dom-selection-modify",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "4"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
-            "standard_track": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -983,25 +1041,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/rangeCount",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-rangecount",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1014,12 +1072,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1032,25 +1087,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/removeAllRanges",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-removeallranges",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1063,12 +1118,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1081,25 +1133,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/removeRange",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-removerange",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "58"
             },
-            "chrome_android": {
-              "version_added": "58"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": [
               {
                 "version_added": "45"
@@ -1119,17 +1171,12 @@
               }
             ],
             "safari": {
-              "version_added": false
+              "version_added": "17"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
-            "webview_android": {
-              "version_added": "58"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1142,25 +1189,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/selectAllChildren",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-selectallchildren",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1170,15 +1217,10 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1191,93 +1233,109 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/setBaseAndExtent",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-setbaseandextent",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "53"
             },
-            "firefox_android": {
-              "version_added": "53"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
+        },
+        "accepts_nodes_in_shadow_trees": {
+          "__compat": {
+            "description": "Accepts `anchorNode` and `focusNode` arguments in different shadow trees",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
         }
       },
       "setPosition": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/collapse",
+          "description": "`setPosition()` as alias of `collapse()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/setPosition",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-collapse",
-          "description": "<code>setPosition()</code> as alias of <code>collapse()</code>",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1290,25 +1348,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/toString",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-stringifier",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1318,15 +1376,10 @@
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1339,43 +1392,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Selection/type",
           "spec_url": "https://w3c.github.io/selection-api/#dom-selection-type",
+          "tags": [
+            "web-features:selection-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "57"
             },
-            "firefox_android": {
-              "version_added": "57"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

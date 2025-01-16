@@ -3,44 +3,33 @@
     "KeyframeEffect": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect",
-        "spec_url": "https://drafts.csswg.org/web-animations/#the-keyframeeffect-interface",
+        "spec_url": "https://drafts.csswg.org/web-animations-1/#the-keyframeeffect-interface",
+        "tags": [
+          "web-features:web-animations"
+        ],
         "support": {
           "chrome": {
             "version_added": "75"
           },
-          "chrome_android": {
-            "version_added": "75"
-          },
-          "edge": {
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "63"
           },
-          "firefox_android": {
-            "version_added": "63"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "62"
-          },
-          "opera_android": {
-            "version_added": "54"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": "13.1"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": "11.0"
-          },
-          "webview_android": {
-            "version_added": "75"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -50,46 +39,35 @@
       },
       "KeyframeEffect": {
         "__compat": {
+          "description": "`KeyframeEffect()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/KeyframeEffect",
-          "spec_url": "https://drafts.csswg.org/web-animations/#dom-keyframeeffect-keyframeeffect",
-          "description": "<code>KeyframeEffect()</code> constructor",
+          "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-keyframeeffect",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "75"
             },
-            "chrome_android": {
-              "version_added": "75"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "63"
             },
-            "firefox_android": {
-              "version_added": "63"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "62"
-            },
-            "opera_android": {
-              "version_added": "54"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "13.1"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "11.0"
-            },
-            "webview_android": {
-              "version_added": "75"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -101,70 +79,35 @@
       "composite": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/composite",
-          "spec_url": "https://drafts.csswg.org/web-animations/#dom-keyframeeffect-composite",
+          "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-composite",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "84"
             },
-            "chrome_android": {
-              "version_added": "84"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "80"
             },
-            "edge": {
-              "version_added": "84"
-            },
-            "firefox": [
-              {
-                "version_added": "80"
-              },
-              {
-                "version_added": "63",
-                "version_removed": "79",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.animations-api.compositing.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
-            "firefox_android": [
-              {
-                "version_added": "80"
-              },
-              {
-                "version_added": "63",
-                "version_removed": "79",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.animations-api.compositing.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "71"
             },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -176,44 +119,35 @@
       "getKeyframes": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/getKeyframes",
-          "spec_url": "https://drafts.csswg.org/web-animations/#dom-keyframeeffect-getkeyframes",
+          "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-getkeyframes",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "84"
             },
-            "chrome_android": {
-              "version_added": "84"
-            },
-            "edge": {
-              "version_added": "84"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "63"
             },
-            "firefox_android": {
-              "version_added": "63"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "71"
             },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "13.1"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -226,72 +160,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/iterationComposite",
           "spec_url": "https://drafts.csswg.org/web-animations-2/#dom-keyframeeffect-iterationcomposite",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://crbug.com/41133485"
             },
-            "chrome_android": {
-              "version_added": false
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "80"
             },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": [
-              {
-                "version_added": "80"
-              },
-              {
-                "version_added": "63",
-                "version_removed": "79",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.animations-api.compositing.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
-            "firefox_android": [
-              {
-                "version_added": "80"
-              },
-              {
-                "version_added": "63",
-                "version_removed": "79",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.animations-api.compositing.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -300,82 +198,35 @@
       "pseudoElement": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/pseudoElement",
+          "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-pseudoelement",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
-            "chrome": [
-              {
-                "version_added": "84"
-              },
-              {
-                "version_added": "81",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features"
-                  }
-                ]
-              }
-            ],
-            "chrome_android": [
-              {
-                "version_added": "84"
-              },
-              {
-                "version_added": "81",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features"
-                  }
-                ]
-              }
-            ],
-            "edge": {
-              "version_added": "81",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
+            "chrome": {
+              "version_added": "84"
             },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "75"
             },
-            "firefox_android": {
-              "version_added": "79"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": [
-              {
-                "version_added": "71"
-              },
-              {
-                "version_added": "68",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features"
-                  }
-                ]
-              }
-            ],
-            "opera_android": {
-              "version_added": "60"
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "71"
             },
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "14"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -387,44 +238,35 @@
       "setKeyframes": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/setKeyframes",
-          "spec_url": "https://drafts.csswg.org/web-animations/#dom-keyframeeffect-setkeyframes",
+          "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-setkeyframes",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "84"
             },
-            "chrome_android": {
-              "version_added": "84"
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "63"
             },
-            "firefox_android": {
-              "version_added": "63"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "71"
             },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "13.1"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -436,44 +278,33 @@
       "target": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/target",
-          "spec_url": "https://drafts.csswg.org/web-animations/#dom-keyframeeffect-target",
+          "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-target",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "75"
             },
-            "chrome_android": {
-              "version_added": "75"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "63"
             },
-            "firefox_android": {
-              "version_added": "63"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "62"
-            },
-            "opera_android": {
-              "version_added": "54"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "13.1"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "11.0"
-            },
-            "webview_android": {
-              "version_added": "75"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

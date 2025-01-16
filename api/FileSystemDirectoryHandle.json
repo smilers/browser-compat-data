@@ -3,95 +3,78 @@
     "FileSystemDirectoryHandle": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle",
-        "spec_url": "https://wicg.github.io/file-system-access/#api-filesystemdirectoryhandle",
+        "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle",
+        "tags": [
+          "web-features:origin-private-file-system"
+        ],
         "support": {
           "chrome": {
             "version_added": "86"
           },
           "chrome_android": {
-            "version_added": "86"
+            "version_added": "109"
           },
-          "edge": {
-            "version_added": "86"
-          },
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": "111"
           },
-          "firefox_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "72"
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "15.2"
           },
-          "safari_ios": {
-            "version_added": "15.2"
-          },
-          "samsunginternet_android": {
-            "version_added": "14.0"
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
-          "standard_track": false,
+          "experimental": false,
+          "standard_track": true,
           "deprecated": false
         }
       },
       "entries": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/entries",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -99,48 +82,39 @@
       "getDirectoryHandle": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/getDirectoryHandle",
-          "spec_url": "https://wicg.github.io/file-system-access/#api-filesystemdirectoryhandle-getdirectoryhandle",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getdirectoryhandle",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -148,48 +122,39 @@
       "getFileHandle": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/getFileHandle",
-          "spec_url": "https://wicg.github.io/file-system-access/#api-filesystemdirectoryhandle-getfilehandle",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getfilehandle",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -197,47 +162,39 @@
       "keys": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/keys",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -245,48 +202,39 @@
       "removeEntry": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/removeEntry",
-          "spec_url": "https://wicg.github.io/file-system-access/#api-filesystemdirectoryhandle-removeentry",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-removeentry",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -294,48 +242,39 @@
       "resolve": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/resolve",
-          "spec_url": "https://wicg.github.io/file-system-access/#api-filesystemdirectoryhandle-resolve",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-resolve",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -343,47 +282,79 @@
       "values": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/values",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable",
+          "tags": [
+            "web-features:origin-private-file-system"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": "86"
+              "version_added": "109"
             },
-            "edge": {
-              "version_added": "86"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "111"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "72"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15.2"
             },
-            "safari_ios": {
-              "version_added": "15.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "@@asyncIterator": {
+        "__compat": {
+          "description": "[Symbol.asyncIterator]",
+          "spec_url": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable",
+          "tags": [
+            "web-features:file-system-access"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "86"
+            },
+            "chrome_android": {
+              "version_added": "109"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "111"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
             "deprecated": false
           }
         }

@@ -6,21 +6,20 @@
           "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤58"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": "54"
             },
             "firefox_android": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
+            "opera": "mirror",
             "safari": {
+              "version_added": "16"
+            },
+            "safari_ios": {
               "version_added": false
             }
           }

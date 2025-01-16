@@ -2,91 +2,79 @@
   "api": {
     "TaskSignal": {
       "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal",
         "spec_url": "https://wicg.github.io/scheduling-apis/#tasksignal",
+        "tags": [
+          "web-features:scheduler"
+        ],
         "support": {
           "chrome": {
             "version_added": "94"
           },
-          "chrome_android": {
-            "version_added": "94"
-          },
-          "edge": {
-            "version_added": "94"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": "101",
+            "flags": [
+              {
+                "type": "preference",
+                "name": "dom.enable_web_task_scheduling",
+                "value_to_set": "true"
+              }
+            ]
           },
-          "firefox_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "80"
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": "94"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
       },
-      "onprioritychange": {
+      "any_static": {
         "__compat": {
-          "spec_url": "https://wicg.github.io/scheduling-apis/#dom-tasksignal-onprioritychange",
+          "description": "`any()` static method",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal/any_static",
+          "spec_url": "https://wicg.github.io/scheduling-apis/#dom-tasksignal-any",
+          "tags": [
+            "web-features:scheduler"
+          ],
           "support": {
             "chrome": {
-              "version_added": "94"
+              "version_added": "116"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -97,47 +85,93 @@
       },
       "priority": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal/priority",
           "spec_url": "https://wicg.github.io/scheduling-apis/#dom-tasksignal-priority",
+          "tags": [
+            "web-features:scheduler"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "101",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.enable_web_task_scheduling",
+                  "value_to_set": "true"
+                }
+              ]
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "prioritychange_event": {
+        "__compat": {
+          "description": "`prioritychange` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal/prioritychange_event",
+          "spec_url": [
+            "https://wicg.github.io/scheduling-apis/#ref-for-eventdef-tasksignal-prioritychange",
+            "https://wicg.github.io/scheduling-apis/#dom-tasksignal-onprioritychange"
+          ],
+          "tags": [
+            "web-features:scheduler"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "101",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.enable_web_task_scheduling",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

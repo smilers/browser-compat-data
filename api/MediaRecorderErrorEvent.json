@@ -3,165 +3,103 @@
     "MediaRecorderErrorEvent": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent",
-        "spec_url": "https://w3c.github.io/mediacapture-record/#errorevent-section",
         "support": {
           "chrome": {
             "version_added": false,
-            "notes": "Uses a generic event with an <code>error</code> property."
+            "impl_url": "https://crbug.com/40791876"
           },
-          "chrome_android": {
-            "version_added": false,
-            "notes": "Uses a generic event with an <code>error</code> property."
-          },
-          "edge": {
-            "version_added": false,
-            "notes": "Uses a generic event with an <code>error</code> property."
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "57"
           },
-          "firefox_android": {
-            "version_added": "57"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": false,
-            "notes": "Uses a generic event with an <code>error</code> property."
-          },
-          "opera_android": {
-            "version_added": false,
-            "notes": "Uses a generic event with an <code>error</code> property."
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "14"
           },
-          "safari_ios": {
-            "version_added": "14"
-          },
-          "samsunginternet_android": {
-            "version_added": false,
-            "notes": "Uses a generic event with an <code>error</code> property."
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
-          "standard_track": true,
-          "deprecated": false
+          "standard_track": false,
+          "deprecated": true
         }
       },
       "MediaRecorderErrorEvent": {
         "__compat": {
+          "description": "`MediaRecorderErrorEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent/MediaRecorderErrorEvent",
-          "spec_url": "https://w3c.github.io/mediacapture-record/#dom-mediarecordererrorevent-mediarecordererrorevent",
-          "description": "<code>MediaRecorderErrorEvent()</code> constructor",
           "support": {
             "chrome": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
+              "version_added": false
             },
-            "chrome_android": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
-            "edge": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "57"
             },
-            "firefox_android": {
-              "version_added": "57"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
-            "opera_android": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14"
             },
-            "safari_ios": {
-              "version_added": "14"
-            },
-            "samsunginternet_android": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
-            "standard_track": true,
-            "deprecated": false
+            "standard_track": false,
+            "deprecated": true
           }
         }
       },
       "error": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent/error",
-          "spec_url": "https://w3c.github.io/mediacapture-record/#dom-mediarecordererrorevent-error",
           "support": {
             "chrome": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
+              "version_added": false
             },
-            "chrome_android": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
-            "edge": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "57"
             },
-            "firefox_android": {
-              "version_added": "57"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
-            "opera_android": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14"
             },
-            "safari_ios": {
-              "version_added": "14"
-            },
-            "samsunginternet_android": {
-              "version_added": false,
-              "notes": "Uses a generic event with an <code>error</code> property."
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
-            "standard_track": true,
-            "deprecated": false
+            "standard_track": false,
+            "deprecated": true
           }
         }
       }

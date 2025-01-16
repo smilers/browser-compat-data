@@ -6,11 +6,9 @@
         "spec_url": "https://w3c.github.io/FileAPI/#APIASynch",
         "support": {
           "chrome": {
-            "version_added": "7"
+            "version_added": "6"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "deno": {
             "version_added": "1.0"
           },
@@ -19,7 +17,7 @@
           },
           "firefox": {
             "version_added": "3.6",
-            "notes": "Before Firefox 4, <code>Blob</code> parameters were <code>File</code> parameters."
+            "notes": "Before Firefox 4, `Blob` parameters were `File` parameters."
           },
           "firefox_android": {
             "version_added": "32"
@@ -27,6 +25,7 @@
           "ie": {
             "version_added": "10"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "11"
           },
@@ -36,15 +35,12 @@
           "safari": {
             "version_added": "6"
           },
-          "safari_ios": {
-            "version_added": "6"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
-            "version_added": "≤37"
-          }
+            "version_added": "3"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -54,16 +50,14 @@
       },
       "FileReader": {
         "__compat": {
-          "description": "<code>FileReader()</code> constructor",
+          "description": "`FileReader()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/FileReader",
           "spec_url": "https://w3c.github.io/FileAPI/#filereaderConstrctr",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -79,6 +73,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -88,15 +83,57 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "support": {
+            "chrome": {
               "version_added": "6"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.3"
             },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "46"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "11"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "11"
+            },
+            "opera_android": {
+              "version_added": "11"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -111,11 +148,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#abort",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -131,6 +166,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -140,15 +176,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -159,16 +192,17 @@
       },
       "abort_event": {
         "__compat": {
-          "description": "<code>abort</code> event",
+          "description": "`abort` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/abort_event",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-abort-event",
+          "spec_url": [
+            "https://w3c.github.io/FileAPI/#dfn-abort-event",
+            "https://w3c.github.io/FileAPI/#dfn-onabort"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -184,6 +218,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -193,15 +228,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -216,11 +248,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#dom-filereader-error",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -230,22 +260,23 @@
             "firefox": {
               "version_added": "3.6",
               "notes": [
-                "Before Firefox 13, the <code>error</code> property returned a <code>FileError</code> object.",
-                "From Firefox 13 to Firefox 58, the <code>error</code> property returned a <code>DOMError</code> object.",
-                "From Firefox 58, the <code>error</code> property returns a <code>DOMException</code> object."
+                "Before Firefox 13, the `error` property returned a `FileError` object.",
+                "From Firefox 13 to Firefox 58, the `error` property returned a `DOMError` object.",
+                "From Firefox 58, the `error` property returns a `DOMException` object."
               ]
             },
             "firefox_android": {
               "version_added": "32",
               "notes": [
-                "From Firefox 32 to Firefox 58, the <code>error</code> property returned a <code>DOMError</code> object.",
-                "From Firefox 58, the <code>error</code> property returns a <code>DOMException</code> object."
+                "From Firefox 32 to Firefox 58, the `error` property returned a `DOMError` object.",
+                "From Firefox 58, the `error` property returns a `DOMException` object."
               ]
             },
             "ie": {
               "version_added": "10",
-              "notes": "The <code>error</code> property returns a <code>DOMError</code> object."
+              "notes": "The `error` property returns a `DOMError` object."
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -254,18 +285,14 @@
             },
             "safari": {
               "version_added": "6",
-              "notes": "The <code>error</code> property returns a <code>DOMError</code> object."
+              "notes": "The `error` property returns a `DOMError` object."
             },
-            "safari_ios": {
-              "version_added": "6",
-              "notes": "The <code>error</code> property returns a <code>DOMError</code> object."
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -276,16 +303,17 @@
       },
       "error_event": {
         "__compat": {
-          "description": "<code>error</code> event",
+          "description": "`error` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/error_event",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-error-event",
+          "spec_url": [
+            "https://w3c.github.io/FileAPI/#dfn-error-event",
+            "https://w3c.github.io/FileAPI/#dfn-onerror"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -301,6 +329,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -310,15 +339,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -329,16 +355,17 @@
       },
       "load_event": {
         "__compat": {
-          "description": "<code>load</code> event",
+          "description": "`load` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/load_event",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-load-event",
+          "spec_url": [
+            "https://w3c.github.io/FileAPI/#dfn-load-event",
+            "https://w3c.github.io/FileAPI/#dfn-onload"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -354,6 +381,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -363,15 +391,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -382,16 +407,17 @@
       },
       "loadend_event": {
         "__compat": {
-          "description": "<code>loadend</code> event",
+          "description": "`loadend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/loadend_event",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-loadend-event",
+          "spec_url": [
+            "https://w3c.github.io/FileAPI/#dfn-loadend-event",
+            "https://w3c.github.io/FileAPI/#dfn-onloadend"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -407,6 +433,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -416,15 +443,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -435,16 +459,17 @@
       },
       "loadstart_event": {
         "__compat": {
-          "description": "<code>loadstart</code> event",
+          "description": "`loadstart` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/loadstart_event",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-loadstart-event",
+          "spec_url": [
+            "https://w3c.github.io/FileAPI/#dfn-loadstart-event",
+            "https://w3c.github.io/FileAPI/#dfn-onloadstart"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -459,7 +484,7 @@
                 "version_added": "3.6",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "<code>loadstart</code> event dispatches synchronously (should be asynchronously as per spec)."
+                "notes": "`loadstart` event dispatches synchronously (should be asynchronously as per spec)."
               }
             ],
             "firefox_android": [
@@ -470,12 +495,13 @@
                 "version_added": "32",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "<code>loadstart</code> event dispatches synchronously (should be asynchronously as per spec)."
+                "notes": "`loadstart` event dispatches synchronously (should be asynchronously as per spec)."
               }
             ],
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -485,324 +511,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onabort": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/onabort",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-onabort",
-          "support": {
-            "chrome": {
-              "version_added": "7"
+              "version_added": "3"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.6"
-            },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "11"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onerror": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/onerror",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-onerror",
-          "support": {
-            "chrome": {
-              "version_added": "7"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.6"
-            },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "11"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onload": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/onload",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-onload",
-          "support": {
-            "chrome": {
-              "version_added": "7"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.6"
-            },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "11"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onloadend": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/onloadend",
-          "support": {
-            "chrome": {
-              "version_added": "7"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.6"
-            },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "11"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onloadstart": {
-        "__compat": {
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-onloadstart",
-          "support": {
-            "chrome": {
-              "version_added": "7"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.6"
-            },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onprogress": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/onprogress",
-          "support": {
-            "chrome": {
-              "version_added": "7"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.6"
-            },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "11"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -813,16 +527,17 @@
       },
       "progress_event": {
         "__compat": {
-          "description": "<code>progress</code> event",
+          "description": "`progress` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReader/progress_event",
-          "spec_url": "https://w3c.github.io/FileAPI/#dfn-progress-event",
+          "spec_url": [
+            "https://w3c.github.io/FileAPI/#dfn-progress-event",
+            "https://w3c.github.io/FileAPI/#dfn-onprogress"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -838,6 +553,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -847,15 +563,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -870,11 +583,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#readAsArrayBuffer",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -890,6 +601,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "12"
             },
@@ -899,15 +611,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -922,11 +631,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#readAsBinaryString",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -942,6 +649,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -951,20 +659,17 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -974,11 +679,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#readAsDataURL",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -990,11 +693,12 @@
             },
             "firefox_android": {
               "version_added": "32",
-              "notes": "Using the camera in Android 8.x raises an exception. See <a href='https://bugzil.la/1511083'>bug 1511083</a>."
+              "notes": "Using the camera in Android 8.x raises an exception. See [bug 1511083](https://bugzil.la/1511083)."
             },
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -1004,15 +708,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1027,11 +728,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#readAsDataText",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -1047,6 +746,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -1056,15 +756,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1079,11 +776,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#dom-filereader-readystate",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -1099,6 +794,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -1108,15 +804,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1131,11 +824,9 @@
           "spec_url": "https://w3c.github.io/FileAPI/#dom-filereader-result",
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.3"
             },
@@ -1151,6 +842,7 @@
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -1160,66 +852,12 @@
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "worker_support": {
-        "__compat": {
-          "description": "Available in workers",
-          "support": {
-            "chrome": {
-              "version_added": "7"
+              "version_added": "3"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.3"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "46"
-            },
-            "firefox_android": {
-              "version_added": "46"
-            },
-            "ie": {
-              "version_added": "11"
-            },
-            "opera": {
-              "version_added": "11"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "6"
-            },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

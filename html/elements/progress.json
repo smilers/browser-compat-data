@@ -5,33 +5,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Element/progress",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element",
+          "tags": [
+            "web-features:progress"
+          ],
           "support": {
             "chrome": {
               "version_added": "6"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "6",
               "notes": [
-                "Before Firefox 14, the <code>&lt;progress&gt;</code> element was incorrectly classified as a form element, and therefore had a <code>form</code> attribute. This has been fixed.",
-                "Firefox provides the <code>::-moz-progress-bar</code> pseudo-element, which lets you style the part of the interior of the progress bar representing the amount of work completed so far."
+                "Before Firefox 14, the `&lt;progress&gt;` element was incorrectly classified as a form element, and therefore had a `form` attribute. This has been fixed.",
+                "Firefox provides the `::-moz-progress-bar` pseudo-element, which lets you style the part of the interior of the progress bar representing the amount of work completed so far."
               ]
             },
-            "firefox_android": {
-              "version_added": "6",
-              "notes": [
-                "Before Firefox 14, the <code>&lt;progress&gt;</code> element was incorrectly classified as a form element, and therefore had a <code>form</code> attribute. This has been fixed.",
-                "Firefox provides the <code>::-moz-progress-bar</code> pseudo-element, which lets you style the part of the interior of the progress bar representing the amount of work completed so far."
-              ]
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -45,12 +41,9 @@
               "version_added": "7",
               "notes": "Safari on iOS does not support indeterminate progress bars (they are rendered like 0%-completed progress bars)."
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -60,25 +53,27 @@
         },
         "max": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Attributes/max",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-progress-max",
+            "tags": [
+              "web-features:progress"
+            ],
             "support": {
               "chrome": {
                 "version_added": "6"
               },
-              "chrome_android": {
-                "version_added": true
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "6"
               },
-              "firefox_android": {
-                "version_added": "6"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "11"
               },
@@ -91,12 +86,9 @@
               "safari_ios": {
                 "version_added": "7"
               },
-              "samsunginternet_android": {
-                "version_added": true
-              },
-              "webview_android": {
-                "version_added": true
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -107,25 +99,26 @@
         },
         "value": {
           "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-progress-value",
+            "tags": [
+              "web-features:progress"
+            ],
             "support": {
               "chrome": {
                 "version_added": "6"
               },
-              "chrome_android": {
-                "version_added": true
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "6"
               },
-              "firefox_android": {
-                "version_added": "6"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "11"
               },
@@ -138,12 +131,9 @@
               "safari_ios": {
                 "version_added": "7"
               },
-              "samsunginternet_android": {
-                "version_added": true
-              },
-              "webview_android": {
-                "version_added": true
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

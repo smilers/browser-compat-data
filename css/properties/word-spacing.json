@@ -4,44 +4,40 @@
       "word-spacing": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/word-spacing",
-          "spec_url": "https://drafts.csswg.org/css-text/#word-spacing-property",
+          "spec_url": [
+            "https://drafts.csswg.org/css-text/#word-spacing-property",
+            "https://svgwg.org/svg2-draft/text.html#WordSpacingProperty"
+          ],
+          "tags": [
+            "web-features:word-spacing"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "6"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "3.5"
             },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -49,46 +45,39 @@
             "deprecated": false
           }
         },
-        "percentages": {
+        "normal": {
           "__compat": {
-            "description": "<code>&lt;percentage&gt;</code> values",
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-word-spacing-normal",
+            "tags": [
+              "web-features:word-spacing"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": false
+                "version_added": "12"
               },
               "firefox": {
-                "version_added": "45"
+                "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "45"
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": false
+                "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
-                "version_added": false
+                "version_added": "3.5"
               },
-              "opera_android": {
-                "version_added": false
-              },
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "6.1"
+                "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "6.1"
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -97,46 +86,73 @@
             }
           }
         },
-        "svg": {
+        "percentages": {
           "__compat": {
-            "description": "SVG support",
+            "description": "`&lt;percentage&gt;` values",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "45"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "7"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": false,
+              "deprecated": true
+            }
+          }
+        },
+        "svg_elements": {
+          "__compat": {
+            "description": "On SVG elements",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "72"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "5.1"
               },
-              "safari_ios": {
-                "version_added": "5"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

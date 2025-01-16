@@ -4,43 +4,32 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion",
         "spec_url": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "tags": [
+          "web-features:webvtt-regions"
+        ],
         "support": {
           "chrome": {
             "version_added": false
           },
-          "chrome_android": {
-            "version_added": false
-          },
-          "edge": {
-            "version_added": false
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "59"
           },
-          "firefox_android": {
-            "version_added": "59"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "7"
           },
-          "safari_ios": {
-            "version_added": "7"
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -50,46 +39,34 @@
       },
       "VTTRegion": {
         "__compat": {
-          "description": "<code>VTTRegion()</code> constructor",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/VTTRegion",
+          "description": "`VTTRegion()` constructor",
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-vttregion",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -101,44 +78,32 @@
       "id": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-id",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/id",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -150,44 +115,29 @@
       "lines": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-lines",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/lines",
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "12.1"
             },
-            "safari_ios": {
-              "version_added": "12.2"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -199,44 +149,32 @@
       "regionAnchorX": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-regionanchorx",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/regionAnchorX",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -248,44 +186,32 @@
       "regionAnchorY": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-regionanchory",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/regionAnchorY",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -297,44 +223,32 @@
       "scroll": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-scroll",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/scroll",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -346,44 +260,32 @@
       "viewportAnchorX": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-viewportanchorx",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/viewportAnchorX",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -395,44 +297,32 @@
       "viewportAnchorY": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-viewportanchory",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/viewportAnchorY",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -444,44 +334,32 @@
       "width": {
         "__compat": {
           "spec_url": "https://w3c.github.io/webvtt/#dom-vttregion-width",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VTTRegion/width",
+          "tags": [
+            "web-features:webvtt-regions"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "59"
             },
-            "firefox_android": {
-              "version_added": "59"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

@@ -4,48 +4,115 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming",
         "spec_url": "https://w3c.github.io/paint-timing/#sec-PerformancePaintTiming",
+        "tags": [
+          "web-features:paint-timing"
+        ],
         "support": {
           "chrome": {
             "version_added": "60"
           },
-          "chrome_android": {
-            "version_added": "60"
-          },
-          "edge": {
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "84"
           },
-          "firefox_android": {
-            "version_added": "84"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "47"
-          },
-          "opera_android": {
-            "version_added": "44"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "14.1"
           },
-          "safari_ios": {
-            "version_added": "14.5"
-          },
-          "samsunginternet_android": {
-            "version_added": "8.0"
-          },
-          "webview_android": {
-            "version_added": "60"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
           "standard_track": true,
           "deprecated": false
+        }
+      },
+      "first-contentful-paint": {
+        "__compat": {
+          "description": "`first-contentful-paint` named entry",
+          "mdn_url": "https://developer.mozilla.org/docs/Glossary/First_contentful_paint",
+          "spec_url": "https://w3c.github.io/paint-timing/#first-contentful-paint",
+          "tags": [
+            "web-features:paint-timing"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "84"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "first-paint": {
+        "__compat": {
+          "description": "`first-paint` named entry",
+          "mdn_url": "https://developer.mozilla.org/docs/Glossary/First_paint",
+          "spec_url": "https://w3c.github.io/paint-timing/#first-paint",
+          "tags": [
+            "web-features:paint-timing"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
         }
       }
     }

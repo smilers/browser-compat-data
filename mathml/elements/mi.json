@@ -4,49 +4,33 @@
       "mi": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Element/mi",
-          "spec_url": "https://w3c.github.io/mathml-core/#identifier-mi",
+          "spec_url": "https://w3c.github.io/mathml-core/#dfn-mi",
+          "tags": [
+            "web-features:mathml"
+          ],
           "support": {
             "chrome": {
-              "version_added": false,
-              "notes": "See <a href='https://crbug.com/6606'>bug 6606</a>."
+              "version_added": "109"
             },
-            "chrome_android": {
-              "version_added": false,
-              "notes": "See <a href='https://crbug.com/6606'>bug 6606</a>."
-            },
-            "edge": {
-              "version_added": false,
-              "notes": "See <a href='https://crbug.com/6606'>bug 6606</a>."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false,
-              "notes": "See <a href='https://crbug.com/6606'>bug 6606</a>."
-            },
-            "webview_android": {
-              "version_added": false,
-              "notes": "See <a href='https://crbug.com/6606'>bug 6606</a>."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -54,233 +38,45 @@
             "deprecated": false
           }
         },
-        "dir": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": "12"
-              },
-              "firefox_android": {
-                "version_added": "14"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "displaystyle": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": "83"
-              },
-              "firefox_android": {
-                "version_added": "83"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "href": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": "7"
-              },
-              "firefox_android": {
-                "version_added": "7"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "mathsize": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": "1"
-              },
-              "firefox_android": {
-                "version_added": "4"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": "6"
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
         "mathvariant": {
           "__compat": {
+            "spec_url": "https://w3c.github.io/mathml-core/#dfn-mathvariant",
+            "tags": [
+              "web-features:mathml"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "109"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": "28"
+                "version_added": "70",
+                "impl_url": "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
+                "notes": [
+                  "The only allowed value in MathML Core is 'normal'. Firefox enables a number of other deprecated values from the MathML 3 specification (see [bug 1845461](https://bugzil.la/1845461)).",
+                  "Implementation does not rely on the CSS approach described in MathML Core (via `text-transform`."
+                ]
               },
-              "firefox_android": {
-                "version_added": "28"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "6"
+                "version_added": "10",
+                "impl_url": "https://trac.webkit.org/changeset/203679",
+                "notes": [
+                  "The only allowed value in MathML Core is 'normal'. Safari enables a number of other deprecated values from the MathML 3 specification.",
+                  "Implementation does not rely on the CSS approach described in MathML Core (via `text-transform`."
+                ]
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

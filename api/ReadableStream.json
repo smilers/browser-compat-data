@@ -4,13 +4,14 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream",
         "spec_url": "https://streams.spec.whatwg.org/#rs-class",
+        "tags": [
+          "web-features:streams"
+        ],
         "support": {
           "chrome": {
             "version_added": "43"
           },
-          "chrome_android": {
-            "version_added": "43"
-          },
+          "chrome_android": "mirror",
           "deno": {
             "version_added": "1.0"
           },
@@ -20,30 +21,30 @@
           "firefox": {
             "version_added": "65"
           },
-          "firefox_android": {
-            "version_added": "65"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "30"
-          },
-          "opera_android": {
-            "version_added": "30"
-          },
+          "nodejs": [
+            {
+              "version_added": "18.0.0"
+            },
+            {
+              "version_added": "16.5.0",
+              "partial_implementation": true,
+              "notes": "Available as a part of the `stream/web` module."
+            }
+          ],
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "10.1"
           },
-          "safari_ios": {
-            "version_added": "10.3"
-          },
-          "samsunginternet_android": {
-            "version_added": "4.0"
-          },
-          "webview_android": {
-            "version_added": "43"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -53,49 +54,41 @@
       },
       "ReadableStream": {
         "__compat": {
+          "description": "`ReadableStream()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/ReadableStream",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-constructor⑤",
-          "description": "<code>ReadableStream()</code> constructor",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
-              "version_added": "43"
+              "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
+            "nodejs": {
+              "version_added": "16.5.0"
             },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -108,13 +101,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/cancel",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-cancel③",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -124,33 +118,68 @@
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
+            "nodejs": {
+              "version_added": "16.5.0"
             },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "from_static": {
+        "__compat": {
+          "description": "`from()` static method",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/from_static",
+          "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-from",
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.35"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "nodejs": {
+              "version_added": "20.6.0"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -160,13 +189,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/getReader",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-get-reader⑤",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -176,30 +206,23 @@
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
+            "nodejs": {
+              "version_added": "16.5.0"
             },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -212,13 +235,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/locked",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-locked②",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
-              "version_added": "43"
+              "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -228,30 +252,23 @@
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
+            "nodejs": {
+              "version_added": "16.5.0"
             },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -264,46 +281,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/pipeThrough",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-pipe-through②",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
               "version_added": "59"
             },
-            "chrome_android": {
-              "version_added": "59"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "102"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "46"
+            "nodejs": {
+              "version_added": "16.5.0"
             },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
-            "webview_android": {
-              "version_added": "59"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -316,46 +325,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/pipeTo",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-pipe-to④",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
               "version_added": "59"
             },
-            "chrome_android": {
-              "version_added": "59"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "100"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "46"
+            "nodejs": {
+              "version_added": "16.5.0"
             },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
-            "webview_android": {
-              "version_added": "59"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -368,46 +369,166 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/tee",
           "spec_url": "https://streams.spec.whatwg.org/#ref-for-rs-tee②",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
             "chrome": {
-              "version_added": "43"
+              "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
+            "nodejs": {
+              "version_added": "16.5.0",
+              "notes": "Before 18.10.0 or 16.18.0, teeing a readable byte stream is not supported."
             },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "transferable": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects",
+          "spec_url": "https://streams.spec.whatwg.org/#rs-transfer",
+          "support": {
+            "chrome": {
+              "version_added": "87"
             },
-            "samsunginternet_android": {
-              "version_added": "4.0"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "103"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "nodejs": {
+              "version_added": "16.5.0"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "values": {
+        "__compat": {
+          "spec_url": "https://streams.spec.whatwg.org/#readablestream",
+          "support": {
+            "chrome": {
+              "version_added": "124"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.35"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "110"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "nodejs": {
+              "version_added": "16.5.0"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "@@asyncIterator": {
+        "__compat": {
+          "description": "[Symbol.asyncIterator]",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator",
+          "spec_url": "https://streams.spec.whatwg.org/#rs-asynciterator",
+          "tags": [
+            "web-features:async-iterable-streams"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "124"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "110"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "nodejs": {
+              "version_added": "16.5.0"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/194379"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

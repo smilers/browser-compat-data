@@ -2,52 +2,86 @@
   "css": {
     "properties": {
       "column-gap": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+          "spec_url": [
+            "https://drafts.csswg.org/css-align/#column-row-gap",
+            "https://drafts.csswg.org/css-grid/#gutters",
+            "https://drafts.csswg.org/css-multicol/#column-gap"
+          ],
+          "tags": [
+            "web-features:multi-column"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1.5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "11.1"
+            },
+            "opera_android": {
+              "version_added": "11.1"
+            },
+            "safari": {
+              "version_added": "3"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
         "flex_context": {
           "__compat": {
             "description": "Supported in Flex Layout",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
             "spec_url": [
               "https://drafts.csswg.org/css-align/#column-row-gap",
               "https://drafts.csswg.org/css-grid/#gutters",
               "https://drafts.csswg.org/css-multicol/#column-gap"
             ],
+            "tags": [
+              "web-features:flexbox-gap"
+            ],
             "support": {
               "chrome": {
                 "version_added": "84"
               },
-              "chrome_android": {
-                "version_added": "84"
-              },
-              "edge": {
-                "version_added": "84"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "63"
               },
-              "firefox_android": {
-                "version_added": "63"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "70"
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "14.1"
               },
-              "safari_ios": {
-                "version_added": "14.5"
-              },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
-                "version_added": "84"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -59,11 +93,13 @@
         "grid_context": {
           "__compat": {
             "description": "Supported in Grid Layout",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
             "spec_url": [
               "https://drafts.csswg.org/css-align/#column-row-gap",
               "https://drafts.csswg.org/css-grid/#gutters",
               "https://drafts.csswg.org/css-multicol/#column-gap"
+            ],
+            "tags": [
+              "web-features:grid"
             ],
             "support": {
               "chrome": [
@@ -71,26 +107,18 @@
                   "version_added": "66"
                 },
                 {
-                  "version_added": "57",
-                  "alternative_name": "grid-column-gap"
+                  "alternative_name": "grid-column-gap",
+                  "version_added": "57"
                 }
               ],
-              "chrome_android": [
-                {
-                  "version_added": "66"
-                },
-                {
-                  "version_added": "57",
-                  "alternative_name": "grid-column-gap"
-                }
-              ],
+              "chrome_android": "mirror",
               "edge": [
                 {
                   "version_added": "16"
                 },
                 {
-                  "version_added": "16",
-                  "alternative_name": "grid-column-gap"
+                  "alternative_name": "grid-column-gap",
+                  "version_added": "16"
                 }
               ],
               "firefox": [
@@ -98,58 +126,27 @@
                   "version_added": "61"
                 },
                 {
-                  "version_added": "52",
-                  "alternative_name": "grid-column-gap"
+                  "alternative_name": "grid-column-gap",
+                  "version_added": "52"
                 }
               ],
-              "firefox_android": [
-                {
-                  "version_added": "61"
-                },
-                {
-                  "version_added": "52",
-                  "alternative_name": "grid-column-gap"
-                }
-              ],
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": [
-                {
-                  "version_added": "53"
-                },
-                {
-                  "version_added": "44",
-                  "alternative_name": "grid-column-gap"
-                }
-              ],
-              "opera_android": [
-                {
-                  "version_added": "47"
-                },
-                {
-                  "version_added": "43",
-                  "alternative_name": "grid-column-gap"
-                }
-              ],
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": [
                 {
                   "version_added": "12"
                 },
                 {
-                  "version_added": "10.1",
-                  "alternative_name": "grid-column-gap"
+                  "alternative_name": "grid-column-gap",
+                  "version_added": "10.1"
                 }
               ],
-              "safari_ios": [
-                {
-                  "version_added": "12"
-                },
-                {
-                  "version_added": "10.3",
-                  "alternative_name": "grid-column-gap"
-                }
-              ],
+              "safari_ios": "mirror",
               "samsunginternet_android": [
                 {
                   "version_added": "9.0"
@@ -159,15 +156,8 @@
                   "version_added": "6.0"
                 }
               ],
-              "webview_android": [
-                {
-                  "version_added": "66"
-                },
-                {
-                  "version_added": "57",
-                  "alternative_name": "grid-column-gap"
-                }
-              ]
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -179,11 +169,13 @@
         "multicol_context": {
           "__compat": {
             "description": "Supported in Multi-column Layout",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
             "spec_url": [
               "https://drafts.csswg.org/css-align/#column-row-gap",
               "https://drafts.csswg.org/css-grid/#gutters",
               "https://drafts.csswg.org/css-multicol/#column-gap"
+            ],
+            "tags": [
+              "web-features:multi-column"
             ],
             "support": {
               "chrome": [
@@ -195,15 +187,7 @@
                   "version_added": "1"
                 }
               ],
-              "chrome_android": [
-                {
-                  "version_added": "50"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "18"
-                }
-              ],
+              "chrome_android": "mirror",
               "edge": [
                 {
                   "version_added": "12"
@@ -221,7 +205,7 @@
                   "prefix": "-moz-",
                   "version_added": "1.5",
                   "version_removed": "74",
-                  "notes": "Before Firefox 3, the default value for the <code>normal</code> keyword was <code>0</code> and not <code>1em</code>."
+                  "notes": "Before Firefox 3, the default value for the `normal` keyword was `0` and not `1em`."
                 }
               ],
               "firefox_android": [
@@ -236,6 +220,7 @@
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": [
                 {
                   "version_added": "37"
@@ -280,24 +265,9 @@
                   "version_added": "3"
                 }
               ],
-              "samsunginternet_android": [
-                {
-                  "version_added": "5.0"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "1.0"
-                }
-              ],
-              "webview_android": [
-                {
-                  "version_added": "50"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "≤37"
-                }
-              ]
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -307,44 +277,35 @@
           },
           "calc_values": {
             "__compat": {
-              "description": "<code>calc()</code> values",
+              "description": "`calc()` values",
+              "tags": [
+                "web-features:multi-column"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "66"
                 },
-                "chrome_android": {
-                  "version_added": "66"
-                },
+                "chrome_android": "mirror",
                 "edge": {
                   "version_added": "16"
                 },
                 "firefox": {
                   "version_added": "61"
                 },
-                "firefox_android": {
-                  "version_added": "61"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "53"
-                },
-                "opera_android": {
-                  "version_added": "47"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": false
                 },
-                "safari_ios": {
-                  "version_added": false
-                },
-                "samsunginternet_android": {
-                  "version_added": "9.0"
-                },
-                "webview_android": {
-                  "version_added": "66"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -355,44 +316,35 @@
           },
           "percentage_values": {
             "__compat": {
-              "description": "<code>&lt;percentage&gt;</code> values",
+              "description": "`&lt;percentage&gt;` values",
+              "tags": [
+                "web-features:multi-column"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "66"
                 },
-                "chrome_android": {
-                  "version_added": "66"
-                },
+                "chrome_android": "mirror",
                 "edge": {
                   "version_added": "16"
                 },
                 "firefox": {
                   "version_added": "61"
                 },
-                "firefox_android": {
-                  "version_added": "61"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "53"
-                },
-                "opera_android": {
-                  "version_added": "47"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": false
                 },
-                "safari_ios": {
-                  "version_added": false
-                },
-                "samsunginternet_android": {
-                  "version_added": "9.0"
-                },
-                "webview_android": {
-                  "version_added": "66"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,

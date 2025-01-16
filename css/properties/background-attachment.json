@@ -5,25 +5,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-attachment",
           "spec_url": "https://drafts.csswg.org/css-backgrounds/#the-background-attachment",
+          "tags": [
+            "web-features:background-attachment"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "4"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "3.5"
             },
@@ -36,12 +36,9 @@
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -51,54 +48,61 @@
         },
         "fixed": {
           "__compat": {
-            "description": "<code>fixed</code>",
+            "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-attachment-fixed",
+            "tags": [
+              "web-features:background-attachment"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
-                "version_added": "25"
+                "version_added": "2"
               },
-              "firefox_android": {
-                "version_added": "25"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.5"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": [
                 {
+                  "version_added": "15.4"
+                },
+                {
                   "version_added": "14",
+                  "version_removed": "15.4",
                   "partial_implementation": true,
-                  "notes": "<code>local</code> is recognized but has no effect due to <a href='https://webkit.org/b/219324'>a bug</a>."
+                  "notes": "`local` is recognized but has no effect. See [bug 219324](https://webkit.org/b/219324)."
                 },
                 {
                   "version_added": "3.1",
                   "version_removed": "14"
                 }
               ],
-              "safari_ios": {
-                "version_added": "5",
-                "partial_implementation": true,
-                "notes": "<code>fixed<code> is recognized but has no effect. See <a href='https://webkit.org/b/219324'>bug 219324</a>."
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": [
+                {
+                  "version_added": "15.4"
+                },
+                {
+                  "version_added": "5",
+                  "version_removed": "15.4",
+                  "partial_implementation": true,
+                  "notes": "`fixed` is recognized but has no effect. See [bug 219324](https://webkit.org/b/219324)."
+                }
+              ],
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -109,37 +113,39 @@
         },
         "local": {
           "__compat": {
-            "description": "<code>local</code>",
+            "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-attachment-local",
+            "tags": [
+              "web-features:background-attachment"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "25"
               },
-              "firefox_android": {
-                "version_added": "25"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.5"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": [
                 {
+                  "version_added": "15.4"
+                },
+                {
                   "version_added": "13",
+                  "version_removed": "15.4",
                   "partial_implementation": true,
-                  "notes": "<code>local</code> is recognized but has no effect due to <a href='https://webkit.org/b/219324'>a bug</a>."
+                  "notes": "`local` is recognized but has no effect. See [bug 219324](https://webkit.org/b/219324)."
                 },
                 {
                   "version_added": "5",
@@ -148,22 +154,25 @@
               ],
               "safari_ios": [
                 {
+                  "version_added": "15.4"
+                },
+                {
                   "version_added": "13",
+                  "version_removed": "15.4",
                   "partial_implementation": true,
-                  "notes": "<code>local</code> is recognized but has no effect due to <a href='https://webkit.org/b/219324'>a bug</a>."
+                  "notes": "`local` is recognized but has no effect. See [bug 219324](https://webkit.org/b/219324)."
                 },
                 {
                   "version_added": "4.2",
                   "version_removed": "13",
-                  "notes": "If <code>-webkit-overflow-scrolling: touch</code> is set, then <code>local</code> has no effect."
+                  "notes": "If `-webkit-overflow-scrolling: touch` is set, then `local` has no effect."
                 }
               ],
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -175,25 +184,25 @@
         "multiple_backgrounds": {
           "__compat": {
             "description": "Multiple backgrounds",
+            "tags": [
+              "web-features:background-attachment"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.6"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.5"
               },
@@ -206,12 +215,50 @@
               "safari_ios": {
                 "version_added": "3.2"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "scroll": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-attachment-scroll",
+            "tags": [
+              "web-features:background-attachment"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
               },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1"
+              },
+              "safari_ios": {
+                "version_added": "3.2"
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

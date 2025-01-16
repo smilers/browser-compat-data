@@ -9,91 +9,52 @@
             "version_added": "4"
           },
           "chrome_android": {
-            "version_added": "18"
+            "version_added": false,
+            "impl_url": "https://crbug.com/40290702"
           },
-          "edge": {
-            "version_added": "79"
-          },
+          "edge": "mirror",
           "firefox": {
             "version_added": "29"
           },
-          "firefox_android": {
-            "version_added": "29"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "10.6"
           },
           "opera_android": {
             "version_added": "11"
           },
-          "safari": {
-            "version_added": "5"
-          },
-          "safari_ios": {
-            "version_added": "7"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
+          "safari": [
+            {
+              "version_added": "16"
+            },
+            {
+              "version_added": "5",
+              "version_removed": "7"
+            }
+          ],
+          "safari_ios": [
+            {
+              "version_added": "16"
+            },
+            {
+              "version_added": "5",
+              "version_removed": "7"
+            }
+          ],
+          "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": "≤37"
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
           "standard_track": true,
           "deprecated": false
-        }
-      },
-      "applicationCache": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/applicationCache",
-          "support": {
-            "chrome": {
-              "version_added": "4"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": {
-              "version_added": "29"
-            },
-            "firefox_android": {
-              "version_added": "29"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "10.6"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": false,
-            "deprecated": true
-          }
         }
       },
       "close": {
@@ -105,38 +66,45 @@
               "version_added": "4"
             },
             "chrome_android": {
-              "version_added": "18"
+              "version_added": false,
+              "impl_url": "https://crbug.com/40290702"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": "29"
             },
-            "firefox_android": {
-              "version_added": "29"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
             "opera_android": {
               "version_added": "11"
             },
-            "safari": {
-              "version_added": "5"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari": [
+              {
+                "version_added": "16"
+              },
+              {
+                "version_added": "5",
+                "version_removed": "7"
+              }
+            ],
+            "safari_ios": [
+              {
+                "version_added": "16"
+              },
+              {
+                "version_added": "5",
+                "version_removed": "7"
+              }
+            ],
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -147,48 +115,59 @@
       },
       "connect_event": {
         "__compat": {
-          "description": "<code>connect</code> event",
+          "description": "`connect` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/connect_event",
-          "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-workerglobalscope-connect",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/indices.html#event-workerglobalscope-connect",
+            "https://html.spec.whatwg.org/multipage/workers.html#handler-sharedworkerglobalscope-onconnect"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
             },
             "chrome_android": {
-              "version_added": "18"
+              "version_added": false,
+              "impl_url": "https://crbug.com/40290702"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": "29",
-              "notes": "Before version 65 the <code>data</code> property of the event object was <code>null</code>; it is now initialized to an empty string, as per spec."
+              "notes": "Before version 65 the `data` property of the event object was `null`; it is now initialized to an empty string, as per spec."
             },
-            "firefox_android": {
-              "version_added": "29",
-              "notes": "Before version 65 the <code>data</code> property of the event object was <code>null</code>; it is now initialized to an empty string, as per spec."
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
             "opera_android": {
               "version_added": "11"
             },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari": [
+              {
+                "version_added": "16"
+              },
+              {
+                "version_added": "5",
+                "version_removed": "7"
+              }
+            ],
+            "safari_ios": [
+              {
+                "version_added": "16"
+              },
+              {
+                "version_added": "5",
+                "version_removed": "7"
+              }
+            ],
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -206,87 +185,45 @@
               "version_added": "4"
             },
             "chrome_android": {
-              "version_added": "18"
+              "version_added": false,
+              "impl_url": "https://crbug.com/40290702"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": "55"
+              "version_added": "29"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
             "opera_android": {
               "version_added": "11"
             },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onconnect": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/onconnect",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-sharedworkerglobalscope-onconnect",
-          "support": {
-            "chrome": {
-              "version_added": "4"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": {
-              "version_added": "29"
-            },
-            "firefox_android": {
-              "version_added": "29"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "10.6"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari": [
+              {
+                "version_added": "16"
+              },
+              {
+                "version_added": "5",
+                "version_removed": "7"
+              }
+            ],
+            "safari_ios": [
+              {
+                "version_added": "16"
+              },
+              {
+                "version_added": "5",
+                "version_removed": "7"
+              }
+            ],
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

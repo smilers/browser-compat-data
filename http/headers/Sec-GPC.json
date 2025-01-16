@@ -1,0 +1,44 @@
+{
+  "http": {
+    "headers": {
+      "Sec-GPC": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-GPC",
+          "spec_url": "https://w3c.github.io/gpc/#the-sec-gpc-header-field-for-http-requests",
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "120",
+              "notes": "Opt-in to GPC using the Website Privacy Preference setting (`about:preferences#privacy`) checkbox 'Tell websites not to sell or share my data', or by setting the preference `privacy.globalprivacycontrol.enabled` to `true`."
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

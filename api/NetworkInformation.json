@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation",
         "spec_url": "https://wicg.github.io/netinfo/#networkinformation-interface",
+        "tags": [
+          "web-features:network-information"
+        ],
         "support": {
           "chrome": {
             "version_added": "61"
@@ -11,47 +14,140 @@
           "chrome_android": {
             "version_added": "38"
           },
-          "edge": {
-            "version_added": "79"
-          },
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": "31",
+            "version_removed": "32"
           },
           "firefox_android": {
-            "version_added": "31"
+            "version_added": "31",
+            "version_removed": "99"
           },
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "48"
-          },
-          "opera_android": {
-            "version_added": "45"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/185697"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": "3.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": "50"
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
+        }
+      },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "tags": [
+            "web-features:network-information"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "31",
+              "version_removed": "32"
+            },
+            "firefox_android": {
+              "version_added": "53",
+              "version_removed": "99"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "50"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "change_event": {
+        "__compat": {
+          "description": "`change` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/change_event",
+          "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-onchange",
+          "tags": [
+            "web-features:network-information"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": {
+              "version_added": "38"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false,
+              "notes": "On Firefox, the event handler property corresponding to the `change` event is `ontypechange`."
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "50"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
         }
       },
       "downlink": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/downlink",
           "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-downlink",
+          "tags": [
+            "web-features:network-information"
+          ],
           "support": {
             "chrome": {
               "version_added": "61",
@@ -61,44 +157,30 @@
               "version_added": "38",
               "notes": "The value is never greater than 10 Mbps, as a non-standard anti-fingerprinting measure."
             },
-            "edge": {
-              "version_added": "79",
-              "notes": "The value is never greater than 10 Mbps, as a non-standard anti-fingerprinting measure."
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": null
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "48",
-              "notes": "The value is never greater than 10 Mbps, as a non-standard anti-fingerprinting measure."
-            },
-            "opera_android": {
-              "version_added": "45",
-              "notes": "The value is never greater than 10 Mbps, as a non-standard anti-fingerprinting measure."
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0",
-              "notes": "The value is never greater than 10 Mbps, as a non-standard anti-fingerprinting measure."
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "50",
               "notes": "The value is never greater than 10 Mbps, as a non-standard anti-fingerprinting measure."
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -108,10 +190,13 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/downlinkMax",
           "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-downlinkmax",
+          "tags": [
+            "web-features:network-information"
+          ],
           "support": {
             "chrome": {
               "version_added": "61",
-              "notes": "Only supported in Chrome OS"
+              "notes": "Only supported on ChromeOS"
             },
             "chrome_android": {
               "version_added": "38"
@@ -122,12 +207,11 @@
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -137,15 +221,12 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "50"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -158,6 +239,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/effectiveType",
           "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-effectivetype",
+          "tags": [
+            "web-features:network-information"
+          ],
           "support": {
             "chrome": {
               "version_added": "61"
@@ -165,140 +249,33 @@
             "chrome_android": {
               "version_added": "38"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "48"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
               "version_added": "45"
             },
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "50"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
-          }
-        }
-      },
-      "onchange": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/onchange",
-          "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-onchange",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "38"
-            },
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false,
-              "notes": "On Firefox, the event handler property corresponding to the <code>change</code> event is <code>ontypechange</code>."
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "45"
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": "50"
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "ontypechange": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/ontypechange",
-          "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-onchange",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": "38"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": "31"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": null
-            },
-            "opera_android": {
-              "version_added": null
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": false,
-            "deprecated": true
           }
         }
       },
@@ -306,6 +283,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/rtt",
           "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-rtt",
+          "tags": [
+            "web-features:network-information"
+          ],
           "support": {
             "chrome": {
               "version_added": "61",
@@ -315,44 +295,30 @@
               "version_added": "38",
               "notes": "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
             },
-            "edge": {
-              "version_added": "79",
-              "notes": "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
-            },
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "48",
-              "notes": "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
-            },
-            "opera_android": {
-              "version_added": "45",
-              "notes": "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0",
-              "notes": "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "50",
               "notes": "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -362,46 +328,35 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/saveData",
           "spec_url": "https://wicg.github.io/savedata/#dfn-savedata",
+          "tags": [
+            "web-features:savedata"
+          ],
           "support": {
             "chrome": {
               "version_added": "65"
             },
-            "chrome_android": {
-              "version_added": "65"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": null
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "9.0"
-            },
-            "webview_android": {
-              "version_added": "65"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -411,10 +366,13 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/type",
           "spec_url": "https://wicg.github.io/netinfo/#dom-networkinformation-type",
+          "tags": [
+            "web-features:network-information"
+          ],
           "support": {
             "chrome": {
               "version_added": "61",
-              "notes": "Only supported in Chrome OS"
+              "notes": "Only supported on ChromeOS"
             },
             "chrome_android": {
               "version_added": "38"
@@ -423,14 +381,17 @@
               "version_added": false
             },
             "firefox": {
-              "version_added": false
+              "version_added": "31",
+              "version_removed": "32"
             },
             "firefox_android": {
-              "version_added": "31"
+              "version_added": "31",
+              "version_removed": "99"
             },
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -440,15 +401,12 @@
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "50"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -457,51 +415,46 @@
           }
         }
       },
-      "worker_support": {
+      "typechange_event": {
         "__compat": {
-          "description": "Available in workers",
+          "description": "`typechange` event",
           "support": {
             "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "38"
-            },
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": {
               "version_added": false
             },
+            "chrome_android": {
+              "version_added": "38",
+              "notes": "Removal proposed in [bug 40509974](https://crbug.com/40509974)."
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "31",
+              "version_removed": "32"
+            },
             "firefox_android": {
-              "version_added": "53"
+              "version_added": "31",
+              "version_removed": "99"
             },
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "45"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "50"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       }

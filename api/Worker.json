@@ -6,11 +6,9 @@
         "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dedicated-workers-and-the-worker-interface",
         "support": {
           "chrome": {
-            "version_added": "4"
+            "version_added": "2"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "deno": {
             "version_added": "1.0"
           },
@@ -20,9 +18,7 @@
           "firefox": {
             "version_added": "3.5"
           },
-          "firefox_android": {
-            "version_added": "4"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "10"
           },
@@ -31,36 +27,22 @@
               "version_added": "12.17.0",
               "partial_implementation": true,
               "notes": [
-                "Is a Node <code>EventEmitter</code> instead of DOM <code>EventTarget</code>.",
+                "Is a Node `EventEmitter` instead of DOM `EventTarget`.",
                 "Worker script environment expects CommonJS modules or ECMAScript modules.",
-                "Must be imported from the <code>worker_threads</code> module."
+                "Must be imported from the `worker_threads` module."
               ]
             },
             {
               "version_added": "11.7.0",
               "partial_implementation": true,
               "notes": [
-                "Is a Node <code>EventEmitter</code> instead of DOM <code>EventTarget</code>.",
+                "Is a Node `EventEmitter` instead of DOM `EventTarget`.",
                 "Worker script environment expects CommonJS modules.",
-                "Must be imported from the <code>worker_threads</code> module."
-              ]
-            },
-            {
-              "version_added": "10.5.0",
-              "partial_implementation": true,
-              "notes": [
-                "Is a Node <code>EventEmitter</code> instead of DOM <code>EventTarget</code>.",
-                "Worker script environment expects CommonJS modules.",
-                "Must be imported from the <code>worker_threads</code> module."
-              ],
-              "flags": [
-                {
-                  "type": "runtime_flag",
-                  "name": "--experimental-worker"
-                }
+                "Must be imported from the `worker_threads` module."
               ]
             }
           ],
+          "oculus": "mirror",
           "opera": {
             "version_added": "10.6"
           },
@@ -73,12 +55,9 @@
           "safari_ios": {
             "version_added": "5"
           },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "4"
-          }
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -88,16 +67,14 @@
       },
       "Worker": {
         "__compat": {
+          "description": "`Worker()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/Worker",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-dev",
-          "description": "<code>Worker()</code> constructor",
           "support": {
             "chrome": {
               "version_added": "4"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -107,17 +84,23 @@
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
-            "nodejs": {
-              "version_added": "10.5.0",
-              "partial_implementation": true,
-              "notes": "Takes an entirely different options object."
-            },
+            "nodejs": [
+              {
+                "version_added": "12.17.0",
+                "partial_implementation": true,
+                "notes": "Takes entirely different options."
+              },
+              {
+                "version_added": "11.7.0",
+                "partial_implementation": true,
+                "notes": "Takes entirely different options."
+              }
+            ],
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -130,12 +113,9 @@
             "safari_ios": {
               "version_added": "5"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -146,51 +126,44 @@
         "ecmascript_modules": {
           "__compat": {
             "description": "Support for ECMAScript modules",
+            "tags": [
+              "web-features:js-modules-workers"
+            ],
             "support": {
               "chrome": {
                 "version_added": "80"
               },
-              "chrome_android": {
-                "version_added": "80"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
-              "edge": {
-                "version_added": "80"
-              },
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "114"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "12.17.0",
                 "partial_implementation": true,
-                "notes": "ECMAScript modules are enabled for files ending with <code>.mjs</code> and for files ending with <code>.js</code> when the nearest parent <code>package.json</code> file contains a top-level field <code>\"type\"</code> with a value of <code>\"module\"</code>."
+                "notes": "ECMAScript modules are enabled for files ending with `.mjs` and for files ending with `.js` when the nearest parent `package.json` file contains a top-level field `\"type\"` with a value of `\"module\"`."
               },
-              "opera": {
-                "version_added": "67"
-              },
-              "opera_android": {
-                "version_added": "57"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "15"
+                "version_added": "15",
+                "notes": [
+                  "Nested workers support was introduced in Safari 15.5.",
+                  "Script loading in nested workers was introduced in Safari 16.4."
+                ]
               },
-              "safari_ios": {
-                "version_added": "15"
-              },
-              "samsunginternet_android": {
-                "version_added": "13.0"
-              },
-              "webview_android": {
-                "version_added": "80"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -205,52 +178,33 @@
             "support": {
               "chrome": {
                 "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
+                "impl_url": "https://crbug.com/40554522"
               },
-              "chrome_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "81"
               },
-              "firefox_android": {
-                "version_added": "81"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
+              "nodejs": {
+                "version_added": false
               },
-              "opera_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/192749'>WebKit bug 192749</a>."
+                "version_added": "16"
               },
-              "safari_ios": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/192749'>WebKit bug 192749</a>."
-              },
-              "samsunginternet_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
-              },
-              "webview_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/794548'>Chromium bug 794548</a>."
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -261,14 +215,12 @@
         },
         "options_name_parameter": {
           "__compat": {
-            "description": "<code>options.name</code> parameter",
+            "description": "`options.name` parameter",
             "support": {
               "chrome": {
                 "version_added": "70"
               },
-              "chrome_android": {
-                "version_added": "70"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -278,33 +230,23 @@
               "firefox": {
                 "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": "55"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "57"
-              },
-              "opera_android": {
-                "version_added": "49"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "12.1"
               },
-              "safari_ios": {
-                "version_added": "12.2"
-              },
-              "samsunginternet_android": {
-                "version_added": "10.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -315,51 +257,40 @@
         },
         "options_type_parameter": {
           "__compat": {
-            "description": "<code>options.type</code> parameter",
+            "description": "`options.type` parameter",
+            "tags": [
+              "web-features:js-modules-workers"
+            ],
             "support": {
               "chrome": {
                 "version_added": "80"
               },
-              "chrome_android": {
-                "version_added": "80"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0",
-                "notes": "Only supports <code>module</code>"
+                "notes": "Only supports `module`"
               },
-              "edge": {
-                "version_added": "80"
-              },
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "114"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "67"
-              },
-              "opera_android": {
-                "version_added": "57"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "15"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "13.0"
-              },
-              "webview_android": {
-                "version_added": "80"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -369,18 +300,104 @@
           }
         }
       },
-      "message_event": {
+      "worker_support": {
         "__compat": {
-          "description": "<code>message</code> event",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/message_event",
-          "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-message",
+          "description": "Available in workers",
+          "support": {
+            "chrome": {
+              "version_added": "69",
+              "partial_implementation": true,
+              "notes": "Not available in Shared Workers. See [bug 40695450](https://crbug.com/40695450)."
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "34"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4",
+              "partial_implementation": true,
+              "notes": "Not available in Shared Workers. See [bug 265263](https://webkit.org/b/265263)."
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "error_event": {
+        "__compat": {
+          "description": "`error` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/error_event",
+          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-abstractworker-onerror",
           "support": {
             "chrome": {
               "version_added": "4"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
             },
+            "firefox": {
+              "version_added": "3.5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "nodejs": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "10.6"
+            },
+            "opera_android": {
+              "version_added": "11"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": {
+              "version_added": "5"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "message_event": {
+        "__compat": {
+          "description": "`message` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/message_event",
+          "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-message",
+          "tags": [
+            "web-features:postmessage"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "4"
+            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -390,17 +407,23 @@
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
-            "nodejs": {
-              "version_added": "10.5.0",
-              "partial_implementation": true,
-              "notes": "Supports the event, but only via Node <code>EventEmitter</code>."
-            },
+            "nodejs": [
+              {
+                "version_added": "12.17.0",
+                "partial_implementation": true,
+                "notes": "Supports the event, but only via Node `EventEmitter`."
+              },
+              {
+                "version_added": "11.7.0",
+                "partial_implementation": true,
+                "notes": "Supports the event, but only via Node `EventEmitter`."
+              }
+            ],
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -413,12 +436,9 @@
             "safari_ios": {
               "version_added": "5"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -429,218 +449,41 @@
       },
       "messageerror_event": {
         "__compat": {
-          "description": "<code>messageerror</code> event",
+          "description": "`messageerror` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-messageerror",
           "support": {
             "chrome": {
-              "version_added": "60"
+              "version_added": false
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
             "edge": {
-              "version_added": "18"
+              "version_added": "18",
+              "version_removed": "79"
             },
             "firefox": {
               "version_added": "57"
             },
-            "firefox_android": {
-              "version_added": "57"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
             "nodejs": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "47"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false,
-              "notes": "See <a href='https://webkit.org/b/171216'>bug 171216</a>."
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false,
-              "notes": "See <a href='https://webkit.org/b/171216'>bug 171216</a>."
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onerror": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/onerror",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-abstractworker-onerror",
-          "support": {
-            "chrome": {
-              "version_added": "4"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.5"
-            },
-            "firefox_android": {
-              "version_added": "4"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "nodejs": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "10.6"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "4"
-            },
-            "safari_ios": {
-              "version_added": "5"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onmessage": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/onmessage",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-worker-onmessage",
-          "support": {
-            "chrome": {
-              "version_added": "4"
-            },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "deno": {
-              "version_added": "1.0"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "3.5"
-            },
-            "firefox_android": {
-              "version_added": "4"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "nodejs": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "10.6"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "4"
-            },
-            "safari_ios": {
-              "version_added": "5"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onmessageerror": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-worker-onmessageerror",
-          "support": {
-            "chrome": {
-              "version_added": "60"
-            },
-            "chrome_android": {
-              "version_added": "60"
-            },
-            "deno": {
-              "version_added": "1.0"
-            },
-            "edge": {
-              "version_added": "18"
-            },
-            "firefox": {
-              "version_added": "57"
-            },
-            "firefox_android": {
-              "version_added": "57"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "nodejs": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
-            "safari": {
-              "version_added": false,
-              "notes": "See <a href='https://webkit.org/b/171216'>bug 171216</a>."
-            },
-            "safari_ios": {
-              "version_added": false,
-              "notes": "See <a href='https://webkit.org/b/171216'>bug 171216</a>."
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -653,25 +496,26 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Worker/postMessage",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-postmessage-dev",
+          "tags": [
+            "web-features:postmessage"
+          ],
           "support": {
             "chrome": {
-              "version_added": "4"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": [
               {
                 "version_added": "1.14",
-                "notes": "The <code>message</code> parameter does not support cloning <code>Blob</code> values."
+                "notes": "The `message` parameter does not support cloning `Blob` values."
               },
               {
                 "version_added": "1.12",
                 "version_removed": "1.14",
                 "partial_implementation": true,
                 "notes": [
-                  "The <code>message</code> parameter does not support cloning <code>Blob</code> values.",
-                  "The <code>transfer</code> parameter does not accept <code>ArrayBuffer</code> items. Passing an <code>ArrayBuffer</code> results in an error being thrown."
+                  "The `message` parameter does not support cloning `Blob` values.",
+                  "The `transfer` parameter does not accept `ArrayBuffer` items. Passing an `ArrayBuffer` results in an error being thrown."
                 ]
               },
               {
@@ -679,8 +523,8 @@
                 "version_removed": "1.12",
                 "partial_implementation": true,
                 "notes": [
-                  "The <code>message</code> parameter does not support <code>SharedArrayBuffer</code>.",
-                  "The <code>transfer</code> parameter is not supported, and results in an error being thrown."
+                  "The `message` parameter does not support `SharedArrayBuffer`.",
+                  "The `transfer` parameter is not supported, and results in an error being thrown."
                 ]
               },
               {
@@ -688,8 +532,8 @@
                 "version_removed": "1.10",
                 "partial_implementation": true,
                 "notes": [
-                  "Data passed in the <code>message</code> parameter is serialized with JSON, not the structured clone algorithm.",
-                  "The <code>transfer</code> parameter is not supported, and results in an error being thrown."
+                  "Data passed in the `message` parameter is serialized with JSON, not the structured clone algorithm.",
+                  "The `transfer` parameter is not supported, and results in an error being thrown."
                 ]
               }
             ],
@@ -699,16 +543,24 @@
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10",
-              "notes": "Internet Explorer does not support <code>Transferable</code> objects."
+              "notes": "Internet Explorer does not support `Transferable` objects."
             },
-            "nodejs": {
-              "version_added": "10.5.0"
-            },
+            "nodejs": [
+              {
+                "version_added": "12.17.0",
+                "partial_implementation": true,
+                "notes": "Supports `transferList` argument for transferring `ArrayBuffer` and `MessagePort` objects"
+              },
+              {
+                "version_added": "11.7.0",
+                "partial_implementation": true,
+                "notes": "Supports `transferList` argument for transferring `ArrayBuffer` and `MessagePort` objects"
+              }
+            ],
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -721,17 +573,54 @@
             "safari_ios": {
               "version_added": "5"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
+          }
+        },
+        "options_includeUserActivation_parameter": {
+          "__compat": {
+            "description": "`options.includeUserActivation` parameter",
+            "support": {
+              "chrome": {
+                "version_added": "72"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": false,
+              "deprecated": false
+            }
           }
         }
       },
@@ -741,11 +630,9 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-terminate-dev",
           "support": {
             "chrome": {
-              "version_added": "4"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -755,16 +642,23 @@
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
-            "nodejs": {
-              "version_added": "10.5.0",
-              "notes": "Also takes an optional callback to be executed when the worker has terminated."
-            },
+            "nodejs": [
+              {
+                "version_added": "12.17.0",
+                "partial_implementation": true,
+                "notes": "Also takes an optional callback to be executed when the worker has terminated."
+              },
+              {
+                "version_added": "11.7.0",
+                "partial_implementation": true,
+                "notes": "Also takes an optional callback to be executed when the worker has terminated."
+              }
+            ],
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -777,12 +671,9 @@
             "safari_ios": {
               "version_added": "5"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

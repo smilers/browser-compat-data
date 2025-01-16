@@ -2,13 +2,118 @@
   "css": {
     "properties": {
       "align-items": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
+          "spec_url": [
+            "https://drafts.csswg.org/css-align/#align-items-property",
+            "https://drafts.csswg.org/css-flexbox/#align-items-property"
+          ],
+          "tags": [
+            "web-features:flexbox"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "29"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "21"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": [
+              {
+                "version_added": "12"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "12"
+              }
+            ],
+            "firefox": [
+              {
+                "version_added": "20"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "49"
+              }
+            ],
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "11"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": [
+              {
+                "version_added": "9"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "7"
+              }
+            ],
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "anchor-center": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-center",
+            "tags": [
+              "web-features:anchor-positioning"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "125"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false,
+                "impl_url": "https://bugzil.la/1838746"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
         "flex_context": {
           "__compat": {
             "description": "Supported in Flex Layout",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
             "spec_url": [
               "https://drafts.csswg.org/css-align/#align-items-property",
               "https://drafts.csswg.org/css-flexbox/#align-items-property"
+            ],
+            "tags": [
+              "web-features:flexbox"
             ],
             "support": {
               "chrome": [
@@ -16,114 +121,35 @@
                   "version_added": "52"
                 },
                 {
-                  "version_added": "29",
+                  "version_added": "21",
+                  "version_removed": "52",
                   "partial_implementation": true,
                   "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "21"
                 }
               ],
-              "chrome_android": [
-                {
-                  "version_added": "52"
-                },
-                {
-                  "version_added": "29",
-                  "partial_implementation": true,
-                  "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "25"
-                }
-              ],
-              "edge": [
-                {
-                  "version_added": "12"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "12"
-                }
-              ],
-              "firefox": [
-                {
-                  "version_added": "20",
-                  "notes": "Multi-line flexbox has been supported since Firefox 28."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "49"
-                }
-              ],
-              "firefox_android": [
-                {
-                  "version_added": "20",
-                  "notes": "Multi-line flexbox has been supported since Firefox 28."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "49"
-                }
-              ],
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "20",
+                "notes": "Multi-line flexbox has been supported since Firefox 28."
+              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11",
-                "notes": "In Internet Explorer 10 and 11, if column flex items have <code>align-items: center;</code> set on them and their content is too large, then they will overflow the bounds of their container. See <a href='https://github.com/philipwalton/flexbugs#2-column-flex-items-set-to-align-itemscenter-overflow-their-container'>Flexbug #2</a>."
+                "notes": "In Internet Explorer 10 and 11, if column flex items have `align-items: center;` set on them and their content is too large, then they will overflow the bounds of their container. See [Flexbug #2](https://github.com/philipwalton/flexbugs#2-column-flex-items-set-to-align-itemscenter-overflow-their-container)."
               },
-              "opera": {
-                "version_added": "12.1"
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "12.1"
-              },
-              "safari": [
-                {
-                  "version_added": "9"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "7"
-                }
-              ],
-              "safari_ios": [
-                {
-                  "version_added": "9"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "7"
-                }
-              ],
-              "samsunginternet_android": [
-                {
-                  "version_added": "6.0"
-                },
-                {
-                  "version_added": "2.0",
-                  "partial_implementation": true,
-                  "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Samsung Internet 6.0."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "1.5"
-                }
-              ],
-              "webview_android": [
-                {
-                  "version_added": "52"
-                },
-                {
-                  "version_added": "4.4",
-                  "partial_implementation": true,
-                  "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "≤37"
-                }
-              ]
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -131,46 +157,44 @@
               "deprecated": false
             }
           },
-          "first_last_baseline": {
+          "baseline": {
             "__compat": {
-              "description": "<code>first baseline</code> and <code>last baseline</code>",
+              "tags": [
+                "web-features:flexbox"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": "59"
+                  "version_added": "21"
                 },
-                "chrome_android": {
-                  "version_added": "59"
-                },
+                "chrome_android": "mirror",
                 "edge": {
-                  "version_added": "79"
+                  "version_added": "≤79"
                 },
                 "firefox": {
-                  "version_added": "45"
+                  "version_added": "28"
                 },
-                "firefox_android": {
-                  "version_added": "45"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
+                "oculus": "mirror",
                 "opera": {
-                  "version_added": "46"
+                  "version_added": "44"
                 },
                 "opera_android": {
                   "version_added": "43"
                 },
                 "safari": {
-                  "version_added": "11"
+                  "version_added": "7"
                 },
-                "safari_ios": {
-                  "version_added": "11"
-                },
+                "safari_ios": "mirror",
                 "samsunginternet_android": {
                   "version_added": "7.0"
                 },
                 "webview_android": {
-                  "version_added": "59"
-                }
+                  "version_added": "57"
+                },
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -179,46 +203,74 @@
               }
             }
           },
-          "left_right": {
+          "first_baseline": {
             "__compat": {
-              "description": "<code>left</code> and <code>right</code>",
+              "description": "`first baseline`",
+              "tags": [
+                "web-features:flexbox"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": "93"
+                  "version_added": "59"
                 },
-                "chrome_android": {
-                  "version_added": "93"
-                },
+                "chrome_android": "mirror",
                 "edge": {
-                  "version_added": "93"
+                  "version_added": "≤79"
                 },
                 "firefox": {
-                  "version_added": "45"
+                  "version_added": "52"
                 },
-                "firefox_android": {
-                  "version_added": "45"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "79"
-                },
-                "opera_android": {
-                  "version_added": false
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
-                  "version_added": "9"
+                  "version_added": "11"
                 },
-                "safari_ios": {
-                  "version_added": "9"
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "last_baseline": {
+            "__compat": {
+              "description": "`last baseline`",
+              "tags": [
+                "web-features:flexbox"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "108"
                 },
-                "samsunginternet_android": {
+                "chrome_android": "mirror",
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "52"
+                },
+                "firefox_android": "mirror",
+                "ie": {
                   "version_added": false
                 },
-                "webview_android": {
-                  "version_added": "93"
-                }
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "16.2"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -229,53 +281,34 @@
           },
           "safe_unsafe": {
             "__compat": {
-              "description": "<code>safe</code> and <code>unsafe</code>",
+              "description": "`safe` and `unsafe`",
+              "tags": [
+                "web-features:flexbox"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
+                  "version_added": "115",
+                  "notes": "Before version 115, this value is recognized, but has no effect."
                 },
-                "chrome_android": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                },
-                "edge": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "63"
                 },
-                "firefox_android": {
-                  "version_added": "63"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                },
-                "opera_android": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
+                  "version_added": "17.6"
                 },
-                "safari_ios": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                },
-                "samsunginternet_android": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                },
-                "webview_android": {
-                  "version_added": false,
-                  "notes": "This value is recognized, but has no effect."
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -286,44 +319,33 @@
           },
           "start_end": {
             "__compat": {
-              "description": "<code>start</code> and <code>end</code>",
+              "description": "`start` and `end`",
+              "tags": [
+                "web-features:flexbox"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "93"
                 },
-                "chrome_android": {
-                  "version_added": "93"
-                },
-                "edge": {
-                  "version_added": "93"
-                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "45"
                 },
-                "firefox_android": {
-                  "version_added": "45"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "44"
-                },
-                "opera_android": {
-                  "version_added": "43"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": "15.4"
                 },
-                "safari_ios": {
-                  "version_added": false
-                },
-                "samsunginternet_android": {
-                  "version_added": false
-                },
-                "webview_android": {
-                  "version_added": "93"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -336,10 +358,12 @@
         "grid_context": {
           "__compat": {
             "description": "Supported in Grid Layout",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
             "spec_url": [
               "https://drafts.csswg.org/css-align/#align-items-property",
               "https://drafts.csswg.org/css-flexbox/#align-items-property"
+            ],
+            "tags": [
+              "web-features:grid"
             ],
             "support": {
               "chrome": {
@@ -354,30 +378,26 @@
               "firefox": {
                 "version_added": "52"
               },
-              "firefox_android": {
-                "version_added": "52"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "44"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "43"
               },
               "safari": {
                 "version_added": "10.1"
               },
-              "safari_ios": {
-                "version_added": "10.3"
-              },
+              "safari_ios": "mirror",
               "samsunginternet_android": {
                 "version_added": "6.2"
               },
               "webview_android": {
                 "version_added": "57"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -387,44 +407,33 @@
           },
           "start_end": {
             "__compat": {
-              "description": "<code>start</code> and <code>end</code>",
+              "description": "`start` and `end`",
+              "tags": [
+                "web-features:grid"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "57"
                 },
-                "chrome_android": {
-                  "version_added": "57"
-                },
-                "edge": {
-                  "version_added": "79"
-                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "52"
                 },
-                "firefox_android": {
-                  "version_added": "52"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "44"
-                },
-                "opera_android": {
-                  "version_added": "43"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "11"
                 },
-                "safari_ios": {
-                  "version_added": "11"
-                },
-                "samsunginternet_android": {
-                  "version_added": "7.0"
-                },
-                "webview_android": {
-                  "version_added": "57"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,

@@ -4,18 +4,17 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/MIDIOutputMap",
         "spec_url": "https://webaudio.github.io/web-midi-api/#midiinputmap-interface",
+        "tags": [
+          "web-features:web-midi"
+        ],
         "support": {
           "chrome": {
             "version_added": "43"
           },
-          "chrome_android": {
-            "version_added": "43"
-          },
-          "edge": {
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": "108"
           },
           "firefox_android": {
             "version_added": false
@@ -23,45 +22,37 @@
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "30"
-          },
-          "opera_android": {
-            "version_added": "30"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/107250"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": "4.0"
-          },
-          "webview_android": {
-            "version_added": "43"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
       },
       "entries": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -69,24 +60,17 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -97,18 +81,17 @@
       },
       "forEach": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -116,24 +99,17 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -144,18 +120,17 @@
       },
       "get": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -163,24 +138,17 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -191,18 +159,17 @@
       },
       "has": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -210,24 +177,17 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -238,18 +198,17 @@
       },
       "keys": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -257,24 +216,17 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -285,18 +237,17 @@
       },
       "size": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -304,24 +255,17 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -332,18 +276,17 @@
       },
       "values": {
         "__compat": {
+          "tags": [
+            "web-features:web-midi"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "108"
             },
             "firefox_android": {
               "version_added": false
@@ -351,24 +294,57 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "30"
-            },
-            "opera_android": {
-              "version_added": "30"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "@@iterator": {
+        "__compat": {
+          "description": "[Symbol.iterator]",
+          "tags": [
+            "web-features:web-midi"
+          ],
+          "support": {
+            "chrome": {
               "version_added": "43"
-            }
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "108"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/107250"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

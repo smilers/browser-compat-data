@@ -4,29 +4,15 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent",
         "spec_url": "https://w3c.github.io/touch-events/#touchevent-interface",
+        "tags": [
+          "web-features:touch-events"
+        ],
         "support": {
           "chrome": {
             "version_added": "22"
           },
-          "chrome_android": {
-            "version_added": "25"
-          },
-          "edge": [
-            {
-              "version_added": "79"
-            },
-            {
-              "version_added": "≤18",
-              "version_removed": "79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Standards Preview",
-                  "value_to_set": "true"
-                }
-              ]
-            }
-          ],
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": [
             {
               "version_added": "52"
@@ -34,7 +20,7 @@
             {
               "version_added": "18",
               "version_removed": "24",
-              "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+              "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
             }
           ],
           "firefox_android": {
@@ -43,24 +29,18 @@
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "15"
-          },
-          "opera_android": {
-            "version_added": "14"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
           "safari_ios": {
             "version_added": "3.2"
           },
-          "samsunginternet_android": {
-            "version_added": "1.5"
-          },
-          "webview_android": {
-            "version_added": "≤37"
-          }
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -70,51 +50,40 @@
       },
       "TouchEvent": {
         "__compat": {
+          "description": "`TouchEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/TouchEvent",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-constructor",
-          "description": "<code>TouchEvent()</code> constructor",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "48",
-              "notes": "Chrome only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
+              "notes": "Chrome only supports the following `touchEventInit` properties: `touches`, `targetTouches`, `changedTouches`."
             },
-            "chrome_android": {
-              "version_added": "48",
-              "notes": "Chrome only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
-            },
-            "edge": {
-              "version_added": "79",
-              "notes": "Edge only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "46"
             },
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "5.0",
-              "notes": "Samsung Internet only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
-            },
-            "webview_android": {
-              "version_added": "48",
-              "notes": "Chrome only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -127,16 +96,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/altKey",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-altkey",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -144,7 +112,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -153,24 +121,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -183,16 +145,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/changedTouches",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-changedtouches",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -200,7 +161,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -209,24 +170,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -239,16 +194,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/ctrlKey",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-ctrlkey",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -256,7 +210,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -265,24 +219,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -295,16 +243,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/metaKey",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-metakey",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -312,7 +259,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -321,24 +268,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -351,16 +292,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/shiftKey",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-shiftkey",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -368,7 +308,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -377,24 +317,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -407,16 +341,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/targetTouches",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-targettouches",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -424,7 +357,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -433,24 +366,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -463,16 +390,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TouchEvent/touches",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touchevent-touches",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "≤18"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "52"
@@ -480,7 +406,7 @@
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
@@ -489,24 +415,18 @@
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "3.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

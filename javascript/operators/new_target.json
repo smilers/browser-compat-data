@@ -3,16 +3,18 @@
     "operators": {
       "new_target": {
         "__compat": {
-          "description": "<code>new.target</code>",
+          "description": "`new.target`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/new.target",
           "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          "tags": [
+            "web-features:snapshot:ecmascript-2015",
+            "web-features:class-syntax"
+          ],
           "support": {
             "chrome": {
               "version_added": "46"
             },
-            "chrome_android": {
-              "version_added": "46"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -22,33 +24,23 @@
             "firefox": {
               "version_added": "41"
             },
-            "firefox_android": {
-              "version_added": "41"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
             "nodejs": {
               "version_added": "5.0.0"
             },
-            "opera": {
-              "version_added": "33"
-            },
-            "opera_android": {
-              "version_added": "33"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "46"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
