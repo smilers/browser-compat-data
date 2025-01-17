@@ -5,13 +5,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
           "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#table-49",
+          "tags": [
+            "web-features:typed-arrays",
+            "web-features:snapshot:ecmascript-2015"
+          ],
           "support": {
             "chrome": {
               "version_added": "7"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,15 +23,14 @@
             "firefox": {
               "version_added": "4"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
               "version_added": "0.10.0"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -42,12 +43,11 @@
             "safari_ios": {
               "version_added": "4.2"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "4"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -57,16 +57,18 @@
         },
         "Int8Array": {
           "__compat": {
-            "description": "<code>Int8Array()</code> constructor",
+            "description": "`Int8Array()` constructor",
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int8Array/Int8Array",
             "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
+            "tags": [
+              "web-features:typed-arrays",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "7"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -76,15 +78,14 @@
               "firefox": {
                 "version_added": "4"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
               "nodejs": {
                 "version_added": "0.10.0"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "11.6"
               },
@@ -97,12 +98,11 @@
               "safari_ios": {
                 "version_added": "4.2"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -113,13 +113,15 @@
           "constructor_without_parameters": {
             "__compat": {
               "description": "Constructor without parameters",
+              "tags": [
+                "web-features:typed-arrays",
+                "web-features:snapshot:ecmascript-2015"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "7"
                 },
-                "chrome_android": {
-                  "version_added": "18"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -129,15 +131,14 @@
                 "firefox": {
                   "version_added": "55"
                 },
-                "firefox_android": {
-                  "version_added": "55"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": "10"
                 },
                 "nodejs": {
                   "version_added": "0.10.0"
                 },
+                "oculus": "mirror",
                 "opera": {
                   "version_added": "11.6"
                 },
@@ -147,15 +148,12 @@
                 "safari": {
                   "version_added": "5.1"
                 },
-                "safari_ios": {
-                  "version_added": "5"
-                },
-                "samsunginternet_android": {
-                  "version_added": "1.0"
-                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
                 "webview_android": {
                   "version_added": "≤37"
-                }
+                },
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -166,14 +164,16 @@
           },
           "iterable_allowed": {
             "__compat": {
-              "description": "<code>new Int8Array(iterable)</code>",
+              "description": "`new Int8Array(iterable)`",
+              "tags": [
+                "web-features:typed-arrays",
+                "web-features:snapshot:ecmascript-2015"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "39"
                 },
-                "chrome_android": {
-                  "version_added": "39"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -183,87 +183,23 @@
                 "firefox": {
                   "version_added": "52"
                 },
-                "firefox_android": {
-                  "version_added": "52"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "4.0.0"
                 },
-                "opera": {
-                  "version_added": "26"
-                },
-                "opera_android": {
-                  "version_added": "26"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "4.0"
-                },
-                "webview_android": {
-                  "version_added": "39"
-                }
-              },
-              "status": {
-                "experimental": false,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "new_required": {
-            "__compat": {
-              "description": "<code>Int8Array()</code> without <code>new</code> throws",
-              "support": {
-                "chrome": {
-                  "version_added": "7"
-                },
-                "chrome_android": {
-                  "version_added": "18"
-                },
-                "deno": {
-                  "version_added": "1.0"
-                },
-                "edge": {
-                  "version_added": "14"
-                },
-                "firefox": {
-                  "version_added": "44"
-                },
-                "firefox_android": {
-                  "version_added": "44"
-                },
-                "ie": {
-                  "version_added": false
-                },
-                "nodejs": {
-                  "version_added": "0.12.0"
-                },
-                "opera": {
-                  "version_added": "15"
-                },
-                "opera_android": {
-                  "version_added": "14"
-                },
-                "safari": {
-                  "version_added": "5.1"
-                },
-                "safari_ios": {
-                  "version_added": "5"
-                },
-                "samsunginternet_android": {
-                  "version_added": "1.0"
-                },
-                "webview_android": {
-                  "version_added": "≤37"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,

@@ -5,13 +5,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator",
           "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator-objects",
+          "tags": [
+            "web-features:snapshot:ecmascript-2015",
+            "web-features:generators"
+          ],
           "support": {
             "chrome": {
               "version_added": "39"
             },
-            "chrome_android": {
-              "version_added": "39"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,44 +23,23 @@
             "firefox": {
               "version_added": "26"
             },
-            "firefox_android": {
-              "version_added": "26"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "nodejs": [
-              {
-                "version_added": "4.0.0"
-              },
-              {
-                "version_added": "0.12.0",
-                "flags": [
-                  {
-                    "type": "runtime_flag",
-                    "name": "--harmony"
-                  }
-                ]
-              }
-            ],
-            "opera": {
-              "version_added": "26"
+            "nodejs": {
+              "version_added": "4.0.0"
             },
-            "opera_android": {
-              "version_added": "26"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10"
             },
-            "safari_ios": {
-              "version_added": "10"
-            },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "39"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -70,13 +51,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator/next",
             "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator.prototype.next",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:generators"
+            ],
             "support": {
               "chrome": {
                 "version_added": "39"
               },
-              "chrome_android": {
-                "version_added": "39"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -86,44 +69,23 @@
               "firefox": {
                 "version_added": "26"
               },
-              "firefox_android": {
-                "version_added": "26"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "nodejs": [
-                {
-                  "version_added": "4.0.0"
-                },
-                {
-                  "version_added": "0.12.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "26"
+              "nodejs": {
+                "version_added": "4.0.0"
               },
-              "opera_android": {
-                "version_added": "26"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "4.0"
-              },
-              "webview_android": {
-                "version_added": "39"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -136,13 +98,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator/return",
             "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator.prototype.return",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:generators"
+            ],
             "support": {
               "chrome": {
                 "version_added": "50"
               },
-              "chrome_android": {
-                "version_added": "50"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -152,33 +116,23 @@
               "firefox": {
                 "version_added": "38"
               },
-              "firefox_android": {
-                "version_added": "38"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "6.0.0"
               },
-              "opera": {
-                "version_added": "37"
-              },
-              "opera_android": {
-                "version_added": "37"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "50"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -191,13 +145,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw",
             "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator.prototype.throw",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:generators"
+            ],
             "support": {
               "chrome": {
                 "version_added": "39"
               },
-              "chrome_android": {
-                "version_added": "39"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -207,44 +163,23 @@
               "firefox": {
                 "version_added": "26"
               },
-              "firefox_android": {
-                "version_added": "26"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "nodejs": [
-                {
-                  "version_added": "4.0.0"
-                },
-                {
-                  "version_added": "0.12.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "26"
+              "nodejs": {
+                "version_added": "4.0.0"
               },
-              "opera_android": {
-                "version_added": "26"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "4.0"
-              },
-              "webview_android": {
-                "version_added": "39"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

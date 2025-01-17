@@ -5,19 +5,16 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tab-size",
           "spec_url": "https://drafts.csswg.org/css-text/#tab-size-property",
+          "tags": [
+            "web-features:tab-size"
+          ],
           "support": {
             "chrome": {
               "version_added": "21",
               "notes": "This property is not yet animatable."
             },
-            "chrome_android": {
-              "version_added": "25",
-              "notes": "This property is not yet animatable."
-            },
-            "edge": {
-              "version_added": "79",
-              "notes": "This property is not yet animatable."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "91"
@@ -28,19 +25,11 @@
                 "notes": "Before Firefox 53, this property was not animatable."
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "91"
-              },
-              {
-                "prefix": "-moz-",
-                "version_added": "4",
-                "notes": "Before Firefox 53, this property was not animatable."
-              }
-            ],
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": [
               {
                 "version_added": "15"
@@ -64,16 +53,12 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5",
-              "notes": "This property is not yet animatable."
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "4.4"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -83,46 +68,37 @@
         },
         "length": {
           "__compat": {
+            "description": "`&lt;length&gt;`",
             "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length",
             "spec_url": "https://drafts.csswg.org/css-values/#lengths",
-            "description": "<code>&lt;length&gt;</code>",
+            "tags": [
+              "web-features:tab-size"
+            ],
             "support": {
               "chrome": {
                 "version_added": "42"
               },
-              "chrome_android": {
-                "version_added": "42"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "53"
               },
-              "firefox_android": {
-                "version_added": "53"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "29"
-              },
-              "opera_android": {
-                "version_added": "29"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "13.1"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "4.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "56"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

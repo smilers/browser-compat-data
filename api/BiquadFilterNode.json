@@ -4,43 +4,36 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode",
         "spec_url": "https://webaudio.github.io/web-audio-api/#BiquadFilterNode",
+        "tags": [
+          "web-features:web-audio"
+        ],
         "support": {
           "chrome": {
             "version_added": "14"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "12"
           },
           "firefox": {
             "version_added": "25"
           },
-          "firefox_android": {
-            "version_added": "25"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "15"
-          },
-          "opera_android": {
-            "version_added": "14"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "6"
           },
-          "safari_ios": {
-            "version_added": "6"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
-            "version_added": "≤37"
-          }
+            "version_added": "4.4.3"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -50,52 +43,35 @@
       },
       "BiquadFilterNode": {
         "__compat": {
+          "description": "`BiquadFilterNode()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/BiquadFilterNode",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-biquadfilternode-context-options",
-          "description": "<code>BiquadFilterNode()</code> constructor",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
-              "version_added": "55",
-              "notes": "Before Chrome 59, the default values were not supported."
+              "version_added": "55"
             },
-            "chrome_android": {
-              "version_added": "55",
-              "notes": "Before Chrome 59, the default values were not supported."
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "53"
             },
-            "firefox_android": {
-              "version_added": "53"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "42",
-              "notes": "Before Opera 46, the default values were not supported."
-            },
-            "opera_android": {
-              "version_added": "42",
-              "notes": "Before Opera 46, the default values were not supported."
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0",
-              "notes": "Before Samsung Internet 7.0, the default values were not supported."
-            },
-            "webview_android": {
-              "version_added": "55",
-              "notes": "Before version 59, the default values were not supported."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -108,43 +84,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/Q",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-q",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -157,43 +126,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/detune",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-detune",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
-              "version_added": "14"
+              "version_added": "25"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "6"
+              "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -206,43 +168,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/frequency",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-frequency",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -255,43 +210,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/gain",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-gain",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -304,43 +252,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/getFrequencyResponse",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-getfrequencyresponse",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
-              "version_added": "14"
+              "version_added": "17"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -353,43 +294,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/type",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-type",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

@@ -5,13 +5,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set",
           "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set-objects",
+          "tags": [
+            "web-features:set",
+            "web-features:snapshot:ecmascript-2015"
+          ],
           "support": {
             "chrome": {
               "version_added": "38"
             },
-            "chrome_android": {
-              "version_added": "38"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,44 +23,23 @@
             "firefox": {
               "version_added": "13"
             },
-            "firefox_android": {
-              "version_added": "14"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "11"
             },
-            "nodejs": [
-              {
-                "version_added": "0.12.0"
-              },
-              {
-                "version_added": "0.10.0",
-                "flags": [
-                  {
-                    "type": "runtime_flag",
-                    "name": "--harmony"
-                  }
-                ]
-              }
-            ],
-            "opera": {
-              "version_added": "25"
+            "nodejs": {
+              "version_added": "0.12.0"
             },
-            "opera_android": {
-              "version_added": "25"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "8"
             },
-            "safari_ios": {
-              "version_added": "8"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": "38"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -68,16 +49,18 @@
         },
         "Set": {
           "__compat": {
-            "description": "<code>Set()</code> constructor",
+            "description": "`Set()` constructor",
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/Set",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set-constructor",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -87,44 +70,23 @@
               "firefox": {
                 "version_added": "13"
               },
-              "firefox_android": {
-                "version_added": "14"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11"
               },
-              "nodejs": [
-                {
-                  "version_added": "0.12.0"
-                },
-                {
-                  "version_added": "0.10.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "25"
+              "nodejs": {
+                "version_added": "0.12.0"
               },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -134,14 +96,16 @@
           },
           "iterable_allowed": {
             "__compat": {
-              "description": "<code>new Set(iterable)</code>",
+              "description": "`new Set(iterable)`",
+              "tags": [
+                "web-features:set",
+                "web-features:snapshot:ecmascript-2015"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "38"
                 },
-                "chrome_android": {
-                  "version_added": "38"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -151,87 +115,23 @@
                 "firefox": {
                   "version_added": "13"
                 },
-                "firefox_android": {
-                  "version_added": "14"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "0.12.0"
                 },
-                "opera": {
-                  "version_added": "25"
-                },
-                "opera_android": {
-                  "version_added": "25"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "9"
                 },
-                "safari_ios": {
-                  "version_added": "9"
-                },
-                "samsunginternet_android": {
-                  "version_added": "3.0"
-                },
-                "webview_android": {
-                  "version_added": "38"
-                }
-              },
-              "status": {
-                "experimental": false,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "new_required": {
-            "__compat": {
-              "description": "<code>Set()</code> without <code>new</code> throws",
-              "support": {
-                "chrome": {
-                  "version_added": "38"
-                },
-                "chrome_android": {
-                  "version_added": "38"
-                },
-                "deno": {
-                  "version_added": "1.0"
-                },
-                "edge": {
-                  "version_added": "12"
-                },
-                "firefox": {
-                  "version_added": "42"
-                },
-                "firefox_android": {
-                  "version_added": "42"
-                },
-                "ie": {
-                  "version_added": "11"
-                },
-                "nodejs": {
-                  "version_added": "0.12.0"
-                },
-                "opera": {
-                  "version_added": "25"
-                },
-                "opera_android": {
-                  "version_added": "25"
-                },
-                "safari": {
-                  "version_added": "9"
-                },
-                "safari_ios": {
-                  "version_added": "9"
-                },
-                "samsunginternet_android": {
-                  "version_added": "3.0"
-                },
-                "webview_android": {
-                  "version_added": "38"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -242,14 +142,16 @@
           },
           "null_allowed": {
             "__compat": {
-              "description": "<code>new Set(null)</code>",
+              "description": "`new Set(null)`",
+              "tags": [
+                "web-features:set",
+                "web-features:snapshot:ecmascript-2015"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "38"
                 },
-                "chrome_android": {
-                  "version_added": "38"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -259,44 +161,23 @@
                 "firefox": {
                   "version_added": "37"
                 },
-                "firefox_android": {
-                  "version_added": "37"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": "11"
                 },
-                "nodejs": [
-                  {
-                    "version_added": "0.12.0"
-                  },
-                  {
-                    "version_added": "0.10.0",
-                    "flags": [
-                      {
-                        "type": "runtime_flag",
-                        "name": "--harmony"
-                      }
-                    ]
-                  }
-                ],
-                "opera": {
-                  "version_added": "25"
+                "nodejs": {
+                  "version_added": "0.12.0"
                 },
-                "opera_android": {
-                  "version_added": "25"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "9"
                 },
-                "safari_ios": {
-                  "version_added": "9"
-                },
-                "samsunginternet_android": {
-                  "version_added": "3.0"
-                },
-                "webview_android": {
-                  "version_added": "38"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -310,13 +191,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/add",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.add",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -326,46 +209,25 @@
               "firefox": {
                 "version_added": "13"
               },
-              "firefox_android": {
-                "version_added": "14"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11",
                 "partial_implementation": true,
                 "notes": "Returns 'undefined' instead of the 'Set' object."
               },
-              "nodejs": [
-                {
-                  "version_added": "0.12.0"
-                },
-                {
-                  "version_added": "0.10.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "25"
+              "nodejs": {
+                "version_added": "0.12.0"
               },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -378,13 +240,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/clear",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.clear",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -394,33 +258,23 @@
               "firefox": {
                 "version_added": "19"
               },
-              "firefox_android": {
-                "version_added": "19"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11"
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "25"
-              },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -433,13 +287,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/delete",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.delete",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -449,44 +305,67 @@
               "firefox": {
                 "version_added": "13"
               },
-              "firefox_android": {
-                "version_added": "14"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11"
               },
-              "nodejs": [
-                {
-                  "version_added": "0.12.0"
-                },
-                {
-                  "version_added": "0.10.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "25"
+              "nodejs": {
+                "version_added": "0.12.0"
               },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "difference": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/difference",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.difference",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
               },
-              "samsunginternet_android": {
-                "version_added": "3.0"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
               },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -499,13 +378,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/entries",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.entries",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -515,33 +396,23 @@
               "firefox": {
                 "version_added": "24"
               },
-              "firefox_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "25"
-              },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -554,13 +425,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/forEach",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.foreach",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -570,33 +443,23 @@
               "firefox": {
                 "version_added": "25"
               },
-              "firefox_android": {
-                "version_added": "25"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11"
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "25"
-              },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -609,13 +472,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/has",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.has",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -625,44 +490,199 @@
               "firefox": {
                 "version_added": "13"
               },
-              "firefox_android": {
-                "version_added": "14"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11"
               },
-              "nodejs": [
-                {
-                  "version_added": "0.12.0"
-                },
-                {
-                  "version_added": "0.10.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "25"
+              "nodejs": {
+                "version_added": "0.12.0"
               },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "intersection": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.intersection",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
               },
-              "samsunginternet_android": {
-                "version_added": "3.0"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
               },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "isDisjointFrom": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isDisjointFrom",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.isdisjointfrom",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "isSubsetOf": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isSubsetOf",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.issubsetof",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "isSupersetOf": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isSupersetOf",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.issupersetof",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -674,13 +694,15 @@
         "key_equality_for_zeros": {
           "__compat": {
             "description": "Key equality for -0 and 0",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -690,33 +712,70 @@
               "firefox": {
                 "version_added": "29"
               },
-              "firefox_android": {
-                "version_added": "29"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "4.0.0"
               },
-              "opera": {
-                "version_added": "25"
-              },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9"
               },
-              "safari_ios": {
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "keys": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/keys",
+            "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.keys",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "38"
-              }
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "24"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -729,13 +788,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/size",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set.prototype.size",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "38"
               },
-              "chrome_android": {
-                "version_added": "38"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -744,36 +805,113 @@
               },
               "firefox": {
                 "version_added": "19",
-                "notes": "From Firefox 13 to Firefox 18, the <code>size</code> property was implemented as a <code>Set.prototype.size()</code> method, this has been changed to a property in later versions conform to the ECMAScript 2015 specification."
+                "notes": "From Firefox 13 to Firefox 18, the `size` property was implemented as a `Set.prototype.size()` method, this has been changed to a property in later versions conform to the ECMAScript 2015 specification."
               },
-              "firefox_android": {
-                "version_added": "19",
-                "notes": "From Firefox 13 to Firefox 18, the <code>size</code> property was implemented as a <code>Set.prototype.size()</code> method, this has been changed to a property in later versions conform to the ECMAScript 2015 specification."
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "11"
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "25"
-              },
-              "opera_android": {
-                "version_added": "25"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "8"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "symmetricDifference": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricDifference",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.symmetricdifference",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
               },
-              "samsunginternet_android": {
-                "version_added": "3.0"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
               },
-              "webview_android": {
-                "version_added": "38"
-              }
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "union": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/union",
+            "spec_url": "https://tc39.es/proposal-set-methods/#sec-set.prototype.union",
+            "tags": [
+              "web-features:set-methods"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "122"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.42"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "127"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "22.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -786,127 +924,41 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/values",
             "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.values",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
-              "chrome": [
-                {
-                  "version_added": "38"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "38"
-                }
-              ],
-              "chrome_android": [
-                {
-                  "version_added": "38"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "38"
-                }
-              ],
-              "deno": [
-                {
-                  "version_added": "1.0"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "1.0"
-                }
-              ],
-              "edge": [
-                {
-                  "version_added": "12"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "12"
-                }
-              ],
-              "firefox": [
-                {
-                  "version_added": "24"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "24"
-                }
-              ],
-              "firefox_android": [
-                {
-                  "version_added": "24"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "24"
-                }
-              ],
+              "chrome": {
+                "version_added": "38"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
+              },
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "24"
+              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "nodejs": [
-                {
-                  "version_added": "0.12.0"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "0.12.0"
-                }
-              ],
-              "opera": [
-                {
-                  "version_added": "25"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "25"
-                }
-              ],
-              "opera_android": [
-                {
-                  "version_added": "25"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "25"
-                }
-              ],
-              "safari": [
-                {
-                  "version_added": "8"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "8"
-                }
-              ],
-              "safari_ios": [
-                {
-                  "version_added": "8"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "8"
-                }
-              ],
-              "samsunginternet_android": [
-                {
-                  "version_added": "3.0"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "3.0"
-                }
-              ],
-              "webview_android": [
-                {
-                  "version_added": "38"
-                },
-                {
-                  "alternative_name": "keys",
-                  "version_added": "38"
-                }
-              ]
+              "nodejs": {
+                "version_added": "0.12.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "8"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -917,15 +969,18 @@
         },
         "@@iterator": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@iterator",
-            "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype-@@iterator",
+            "description": "[Symbol.iterator]",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/Symbol.iterator",
+            "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype-%symbol.iterator%",
+            "tags": [
+              "web-features:set",
+              "web-features:snapshot:ecmascript-2015"
+            ],
             "support": {
               "chrome": {
                 "version_added": "43"
               },
-              "chrome_android": {
-                "version_added": "43"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -940,56 +995,32 @@
                   "alternative_name": "@@iterator",
                   "version_added": "27",
                   "version_removed": "36",
-                  "notes": "A placeholder property named <code>@@iterator</code> is used."
+                  "notes": "A placeholder property named `@@iterator` is used."
                 },
                 {
                   "alternative_name": "iterator",
                   "version_added": "17",
                   "version_removed": "27",
-                  "notes": "A placeholder property named <code>iterator</code> is used."
+                  "notes": "A placeholder property named `iterator` is used."
                 }
               ],
-              "firefox_android": [
-                {
-                  "version_added": "36"
-                },
-                {
-                  "alternative_name": "@@iterator",
-                  "version_added": "27",
-                  "version_removed": "36",
-                  "notes": "A placeholder property named <code>@@iterator</code> is used."
-                },
-                {
-                  "alternative_name": "iterator",
-                  "version_added": "17",
-                  "version_removed": "27",
-                  "notes": "A placeholder property named <code>iterator</code> is used."
-                }
-              ],
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "0.12.0"
               },
-              "opera": {
-                "version_added": "30"
-              },
-              "opera_android": {
-                "version_added": "30"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9"
               },
-              "safari_ios": {
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "version_added": "4.0"
-              },
-              "webview_android": {
-                "version_added": "43"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1000,15 +1031,18 @@
         },
         "@@species": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@species",
-            "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set-@@species",
+            "description": "[Symbol.species]",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/Symbol.species",
+            "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set-%symbol.species%",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:set"
+            ],
             "support": {
               "chrome": {
                 "version_added": "51"
               },
-              "chrome_android": {
-                "version_added": "51"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -1018,44 +1052,23 @@
               "firefox": {
                 "version_added": "41"
               },
-              "firefox_android": {
-                "version_added": "41"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "nodejs": [
-                {
-                  "version_added": "6.5.0"
-                },
-                {
-                  "version_added": "6.0.0",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--harmony"
-                    }
-                  ]
-                }
-              ],
-              "opera": {
-                "version_added": "38"
+              "nodejs": {
+                "version_added": "6.5.0"
               },
-              "opera_android": {
-                "version_added": "41"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "51"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

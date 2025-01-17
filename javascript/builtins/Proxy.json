@@ -5,13 +5,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
           "spec_url": "https://tc39.es/ecma262/multipage/reflection.html#sec-proxy-objects",
+          "tags": [
+            "web-features:snapshot:ecmascript-2015",
+            "web-features:proxy-reflect"
+          ],
           "support": {
             "chrome": {
               "version_added": "49"
             },
-            "chrome_android": {
-              "version_added": "49"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -21,33 +23,23 @@
             "firefox": {
               "version_added": "18"
             },
-            "firefox_android": {
-              "version_added": "18"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
             "nodejs": {
               "version_added": "6.0.0"
             },
-            "opera": {
-              "version_added": "36"
-            },
-            "opera_android": {
-              "version_added": "36"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10"
             },
-            "safari_ios": {
-              "version_added": "10"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "49"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -57,16 +49,18 @@
         },
         "Proxy": {
           "__compat": {
-            "description": "<code>Proxy()</code> constructor",
+            "description": "`Proxy()` constructor",
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy",
             "spec_url": "https://tc39.es/ecma262/multipage/reflection.html#sec-proxy-constructor",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:proxy-reflect"
+            ],
             "support": {
               "chrome": {
                 "version_added": "49"
               },
-              "chrome_android": {
-                "version_added": "49"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -76,33 +70,23 @@
               "firefox": {
                 "version_added": "18"
               },
-              "firefox_android": {
-                "version_added": "18"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "6.0.0"
               },
-              "opera": {
-                "version_added": "36"
-              },
-              "opera_android": {
-                "version_added": "36"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "49"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -116,13 +100,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/apply",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-call-thisargument-argumentslist",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -132,33 +118,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -171,13 +147,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/construct",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-construct-argumentslist-newtarget",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -187,33 +165,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -226,13 +194,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/defineProperty",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-defineownproperty-p-desc",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -242,33 +212,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -281,13 +241,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/deleteProperty",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-delete-p",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -297,33 +259,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -336,13 +288,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/get",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-get-p-receiver",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -352,33 +306,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -391,13 +335,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/getOwnPropertyDescriptor",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-getownproperty-p",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -407,33 +353,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -446,49 +382,39 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/getPrototypeOf",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-getprototypeof",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "49"
                 },
-                "firefox_android": {
-                  "version_added": "49"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -501,13 +427,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/has",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-hasproperty-p",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -517,33 +445,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -556,13 +474,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/isExtensible",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-isextensible",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -572,33 +492,23 @@
                 "firefox": {
                   "version_added": "31"
                 },
-                "firefox_android": {
-                  "version_added": "31"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -611,13 +521,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/ownKeys",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-ownpropertykeys",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -628,34 +540,23 @@
                   "version_added": "18",
                   "notes": "In Firefox 42, the implementation got updated to reflect the final ES2015 specification: The result is now checked if it is an array and if the array elements are either of type string or of type symbol. Enumerating duplicate own property names is not a failure anymore."
                 },
-                "firefox_android": {
-                  "version_added": "18",
-                  "notes": "In Firefox 42, the implementation got updated to reflect the final ES2015 specification: The result is now checked if it is an array and if the array elements are either of type string or of type symbol. Enumerating duplicate own property names is not a failure anymore."
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -668,13 +569,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/preventExtensions",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-preventextensions",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -684,33 +587,23 @@
                 "firefox": {
                   "version_added": "22"
                 },
-                "firefox_android": {
-                  "version_added": "22"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -723,13 +616,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/set",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-set-p-v-receiver",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -739,33 +634,23 @@
                 "firefox": {
                   "version_added": "18"
                 },
-                "firefox_android": {
-                  "version_added": "18"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -778,13 +663,15 @@
             "__compat": {
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/setPrototypeOf",
               "spec_url": "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-setprototypeof-v",
+              "tags": [
+                "web-features:snapshot:ecmascript-2015",
+                "web-features:proxy-reflect"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "49"
                 },
-                "chrome_android": {
-                  "version_added": "49"
-                },
+                "chrome_android": "mirror",
                 "deno": {
                   "version_added": "1.0"
                 },
@@ -794,33 +681,23 @@
                 "firefox": {
                   "version_added": "49"
                 },
-                "firefox_android": {
-                  "version_added": "49"
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": false
                 },
                 "nodejs": {
                   "version_added": "6.0.0"
                 },
-                "opera": {
-                  "version_added": "36"
-                },
-                "opera_android": {
-                  "version_added": "36"
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "10"
                 },
-                "safari_ios": {
-                  "version_added": "10"
-                },
-                "samsunginternet_android": {
-                  "version_added": "5.0"
-                },
-                "webview_android": {
-                  "version_added": "49"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -834,13 +711,15 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/revocable",
             "spec_url": "https://tc39.es/ecma262/multipage/reflection.html#sec-proxy.revocable",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:proxy-reflect"
+            ],
             "support": {
               "chrome": {
                 "version_added": "63"
               },
-              "chrome_android": {
-                "version_added": "63"
-              },
+              "chrome_android": "mirror",
               "deno": {
                 "version_added": "1.0"
               },
@@ -850,33 +729,23 @@
               "firefox": {
                 "version_added": "34"
               },
-              "firefox_android": {
-                "version_added": "34"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
               "nodejs": {
                 "version_added": "6.0.0"
               },
-              "opera": {
-                "version_added": "50"
-              },
-              "opera_android": {
-                "version_added": "46"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "8.0"
-              },
-              "webview_android": {
-                "version_added": "63"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

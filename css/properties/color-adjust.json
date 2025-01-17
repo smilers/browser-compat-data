@@ -3,59 +3,35 @@
     "properties": {
       "color-adjust": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color-adjust",
-          "spec_url": "https://drafts.csswg.org/css-color-adjust/#perf",
+          "spec_url": "https://drafts.csswg.org/css-color-adjust-1/#color-adjust",
           "support": {
             "chrome": {
-              "version_added": "49",
-              "alternative_name": "-webkit-print-color-adjust"
+              "version_added": false
             },
-            "chrome_android": {
-              "version_added": "49",
-              "alternative_name": "-webkit-print-color-adjust"
-            },
-            "edge": {
-              "version_added": "79",
-              "alternative_name": "-webkit-print-color-adjust"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "48"
+              "version_added": "≤72"
             },
-            "firefox_android": {
-              "version_added": "48"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15",
-              "alternative_name": "-webkit-print-color-adjust"
-            },
-            "opera_android": {
-              "version_added": "36",
-              "alternative_name": "-webkit-print-color-adjust"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "6",
-              "alternative_name": "-webkit-print-color-adjust"
+              "version_added": "15.4"
             },
-            "safari_ios": {
-              "version_added": "6",
-              "alternative_name": "-webkit-print-color-adjust"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0",
-              "alternative_name": "-webkit-print-color-adjust"
-            },
-            "webview_android": {
-              "version_added": "49",
-              "alternative_name": "-webkit-print-color-adjust"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       }

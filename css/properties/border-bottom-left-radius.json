@@ -5,6 +5,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius",
           "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-radius",
+          "tags": [
+            "web-features:border-radius"
+          ],
           "support": {
             "chrome": [
               {
@@ -15,15 +18,7 @@
                 "version_added": "1"
               }
             ],
-            "chrome_android": [
-              {
-                "version_added": "18"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "18"
-              }
-            ],
+            "chrome_android": "mirror",
             "edge": [
               {
                 "version_added": "12"
@@ -36,7 +31,7 @@
             "firefox": [
               {
                 "version_added": "4",
-                "notes": "Before Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50."
+                "notes": "Before Firefox 50, border styles of rounded corners were always rendered as if `border-style` was solid. This has been fixed in Firefox 50."
               },
               {
                 "prefix": "-webkit-",
@@ -48,24 +43,11 @@
                 "version_removed": "12"
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "4",
-                "notes": "Before Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50."
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "49"
-              },
-              {
-                "alternative_name": "-moz-border-radius-bottomleft",
-                "version_added": "4",
-                "version_removed": "14"
-              }
-            ],
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": [
               {
                 "version_added": "10.5"
@@ -102,24 +84,9 @@
                 "version_added": "1"
               }
             ],
-            "samsunginternet_android": [
-              {
-                "version_added": "1.0"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "1.0"
-              }
-            ],
-            "webview_android": [
-              {
-                "version_added": "≤37"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "≤37"
-              }
-            ]
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -130,43 +97,38 @@
         "elliptical_corners": {
           "__compat": {
             "description": "Elliptical corners",
+            "tags": [
+              "web-features:border-radius"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.5"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -178,13 +140,14 @@
         "percentages": {
           "__compat": {
             "description": "Percentages",
+            "tags": [
+              "web-features:border-radius"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -194,33 +157,27 @@
                 },
                 {
                   "version_added": "1",
-                  "notes": "Before Firefox 4, the <a href='https://developer.mozilla.org/docs/Web/CSS/percentage'><code>&lt;percentage&gt;</code></a> was relative to the width of the box even when specifying the radius for a height. This implied that <code>-moz-border-radius-bottomleft</code> was always drawing an arc of circle, and never an ellipse, when followed by a single value."
+                  "version_removed": "4",
+                  "partial_implementation": true,
+                  "notes": "Before Firefox 4, the [`&lt;percentage&gt;`](https://developer.mozilla.org/docs/Web/CSS/percentage) was relative to the width of the box even when specifying the radius for a height. This implied that `-moz-border-radius-bottomright` was always drawing an arc of circle, and never an ellipse, when followed by a single value."
                 }
               ],
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.5"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "5"
               },
-              "safari_ios": {
-                "version_added": "4.2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

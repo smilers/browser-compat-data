@@ -2,25 +2,43 @@
   "webextensions": {
     "api": {
       "extension": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension",
+          "support": {
+            "chrome": {
+              "version_added": "4"
+            },
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "45"
+            },
+            "firefox_android": "mirror",
+            "opera": "mirror",
+            "safari": {
+              "version_added": "14"
+            },
+            "safari_ios": {
+              "version_added": "15"
+            }
+          }
+        },
         "ViewType": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/ViewType",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "44"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "45"
               },
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
               },
@@ -35,24 +53,18 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "54"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
                 },
-                "safari_ios": {
-                  "version_added": false
-                }
+                "safari_ios": "mirror"
               }
             }
           }
@@ -62,7 +74,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getBackgroundPage",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -73,9 +85,7 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
               },
@@ -89,32 +99,28 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getExtensionTabs",
             "support": {
-              "chrome": {
-                "version_added": true
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome": [
+                {
+                  "version_added": "5"
+                },
+                {
+                  "alternative_name": "getTabContentses",
+                  "version_added": "4",
+                  "version_removed": "19"
+                }
+              ],
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "opera": {
                 "version_added": false
               },
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": true
+              "safari_ios": "mirror"
             }
           }
         },
@@ -123,7 +129,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getURL",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -134,20 +140,13 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
               },
               "safari_ios": {
                 "version_added": "15"
               }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": true
             }
           }
         },
@@ -156,22 +155,20 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getViews",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
               },
               "firefox": {
-                "notes": "If this is called from a page that is part of a private browsing window, such as a sidebar in a private window or a popup opened from a private window, then its return value will not include the extension's background page.",
-                "version_added": "45"
+                "version_added": "45",
+                "notes": "If this is called from a page that is part of a private browsing window, such as a sidebar in a private window or a popup opened from a private window, then its return value will not include the extension's background page."
               },
               "firefox_android": {
-                "notes": "If this is called from a page that is part of a private browsing window, such as a sidebar in a private window or a popup opened from a private window, then its return value will not include the extension's background page.",
-                "version_added": "48"
+                "version_added": "48",
+                "notes": "If this is called from a page that is part of a private browsing window, such as a sidebar in a private window or a popup opened from a private window, then its return value will not include the extension's background page."
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
               },
@@ -184,36 +181,41 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "5"
                 },
                 "edge": {
                   "version_added": "14"
                 },
-                "firefox": [
-                  {
-                    "version_added": "45"
-                  },
-                  {
-                    "version_added": "93",
-                    "notes": "Sidebar views are now matched."
-                  }
-                ],
+                "firefox": {
+                  "version_added": "45",
+                  "notes": "Since Firefox 93, sidebar views are now matched."
+                },
                 "firefox_android": {
                   "version_added": "48",
-                  "notes": "The property is recognized, but the filter has no effect.",
-                  "partial_implementation": true
+                  "partial_implementation": true,
+                  "notes": "The property is recognized, but the filter has no effect."
                 },
-                "opera": {
-                  "version_added": true
-                },
-                "safari": {
-                  "version_added": "14",
-                  "notes": "Filtering by <code>windowId</code> won't work when a tab is moved from one window to another."
-                },
-                "safari_ios": {
-                  "version_added": "15",
-                  "notes": "Filtering by <code>windowId</code> won't work when a tab is moved from one window to another."
-                }
+                "opera": "mirror",
+                "safari": [
+                  {
+                    "version_added": "18"
+                  },
+                  {
+                    "version_added": "14",
+                    "partial_implementation": true,
+                    "notes": "Filtering by `windowId` doesn't work when a tab is moved from one window to another."
+                  }
+                ],
+                "safari_ios": [
+                  {
+                    "version_added": "18"
+                  },
+                  {
+                    "version_added": "15",
+                    "partial_implementation": true,
+                    "notes": "Filtering by `windowId` doesn't work when a tab is moved from one window to another."
+                  }
+                ]
               }
             }
           }
@@ -222,9 +224,17 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/inIncognitoContext",
             "support": {
-              "chrome": {
-                "version_added": true
-              },
+              "chrome": [
+                {
+                  "version_added": "7"
+                },
+                {
+                  "alternative_name": "inIncognitoTab",
+                  "version_added": "5",
+                  "version_removed": "67",
+                  "notes": "Only supported in manifest v1."
+                }
+              ],
               "edge": {
                 "version_added": "17"
               },
@@ -234,19 +244,27 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
-              "safari": {
-                "notes": "Always returns false.",
-                "partial_implementation": true,
-                "version_added": "14"
-              },
-              "safari_ios": {
-                "notes": "Always returns false.",
-                "partial_implementation": true,
-                "version_added": "15"
-              }
+              "opera": "mirror",
+              "safari": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "14",
+                  "partial_implementation": true,
+                  "notes": "Always returns `false`."
+                }
+              ],
+              "safari_ios": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "15",
+                  "partial_implementation": true,
+                  "notes": "Always returns `false`."
+                }
+              ]
             }
           }
         },
@@ -255,29 +273,23 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedFileSchemeAccess",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "12"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
-                "notes": "Always returns false.",
+                "version_added": "14",
                 "partial_implementation": true,
-                "version_added": "14"
+                "notes": "Always returns `false`."
               },
               "safari_ios": {
-                "notes": "Always returns false.",
+                "version_added": "15",
                 "partial_implementation": true,
-                "version_added": "15"
+                "notes": "Always returns `false`."
               }
             }
           }
@@ -287,7 +299,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedIncognitoAccess",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "12"
               },
               "edge": {
                 "version_added": "17"
@@ -295,22 +307,28 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
-              "safari": {
-                "notes": "Always returns true.",
-                "partial_implementation": true,
-                "version_added": "14"
-              },
-              "safari_ios": {
-                "notes": "Always returns true.",
-                "partial_implementation": true,
-                "version_added": "15"
-              }
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "14",
+                  "partial_implementation": true,
+                  "notes": "Always returns `true`."
+                }
+              ],
+              "safari_ios": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "15",
+                  "partial_implementation": true,
+                  "notes": "Always returns `true`."
+                }
+              ]
             }
           }
         },
@@ -319,26 +337,20 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/lastError",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              }
+              "safari_ios": "mirror"
             }
           }
         },
@@ -347,31 +359,18 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/onRequest",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "5"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": true
+              "safari_ios": "mirror"
             }
           }
         },
@@ -380,31 +379,18 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/onRequestExternal",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "5"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": true
+              "safari_ios": "mirror"
             }
           }
         },
@@ -413,31 +399,20 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/sendRequest",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "5"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "opera": {
                 "version_added": false
               },
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": true
+              "safari_ios": "mirror"
             }
           }
         },
@@ -446,26 +421,18 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/setUpdateUrlData",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "9"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              }
+              "safari_ios": "mirror"
             }
           }
         }

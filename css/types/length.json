@@ -3,28 +3,28 @@
     "types": {
       "length": {
         "__compat": {
-          "description": "<code>&lt;length&gt;</code>",
+          "description": "`&lt;length&gt;`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length",
           "spec_url": "https://drafts.csswg.org/css-values/#lengths",
+          "tags": [
+            "web-features:width-height"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "3"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "3.5"
             },
@@ -34,15 +34,12 @@
             "safari": {
               "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -52,44 +49,33 @@
         },
         "Q": {
           "__compat": {
-            "description": "<code>Q</code> unit",
+            "description": "`Q` unit",
+            "tags": [
+              "web-features:q-unit"
+            ],
             "support": {
               "chrome": {
                 "version_added": "63"
               },
-              "chrome_android": {
-                "version_added": "63"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "49"
               },
-              "firefox_android": {
-                "version_added": "49"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "50"
-              },
-              "opera_android": {
-                "version_added": "46"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "13.1"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "8.0"
-              },
-              "webview_android": {
-                "version_added": "63"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -100,44 +86,33 @@
         },
         "cap": {
           "__compat": {
-            "description": "<code>cap</code> unit",
+            "description": "`cap` unit",
+            "tags": [
+              "web-features:cap"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "118"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "97"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "17.2"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -148,22 +123,23 @@
         },
         "ch": {
           "__compat": {
-            "description": "<code>ch</code> unit",
+            "description": "`ch` unit",
+            "tags": [
+              "web-features:ch"
+            ],
             "support": {
               "chrome": {
                 "version_added": "27"
               },
-              "chrome_android": {
-                "version_added": "27"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1",
                 "notes": [
-                  "From Firefox 1 to Firefox 3, <code>ch</code> was the width of the <em>M</em> character.",
-                  "From Firefox 1 to Firefox 3, <code>ch</code> did not work with <a href='https://developer.mozilla.org/docs/Web/CSS/border-width' ><code>border-width</code></a> and <a href='https://developer.mozilla.org/docs/Web/CSS/outline-width'><code>outline-width</code></a> CSS properties."
+                  "From Firefox 1 to Firefox 3, `ch` was the width of the _M_ character.",
+                  "From Firefox 1 to Firefox 3, `ch` did not work with [`border-width`](https://developer.mozilla.org/docs/Web/CSS/border-width) and [`outline-width`](https://developer.mozilla.org/docs/Web/CSS/outline-width) CSS properties."
                 ]
               },
               "firefox_android": {
@@ -172,24 +148,98 @@
               "ie": {
                 "version_added": "9"
               },
-              "opera": {
-                "version_added": "20"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "7"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "container_query_length_units": {
+          "__compat": {
+            "description": "Container query length units `cqw`, `cqh`, `cqi`, `cqb`, `cqmin`, `cqmax`",
+            "tags": [
+              "web-features:container-queries"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "105"
               },
-              "samsunginternet_android": {
-                "version_added": "1.5"
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "110"
               },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "16"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "em": {
+          "__compat": {
+            "description": "`em` unit",
+            "tags": [
+              "web-features:em-unit"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "3"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "3.5"
+              },
+              "opera_android": {
+                "version_added": "10.1"
+              },
+              "safari": {
+                "version_added": "1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
-                "version_added": "≤37"
-              }
+                "version_added": "1"
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -200,26 +250,26 @@
         },
         "ex": {
           "__compat": {
-            "description": "<code>ex</code> unit",
+            "description": "`ex` unit",
+            "tags": [
+              "web-features:ex"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "3.5"
               },
@@ -229,15 +279,10 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -248,46 +293,33 @@
         },
         "ic": {
           "__compat": {
-            "description": "<code>ic</code> unit",
+            "description": "`ic` unit",
+            "tags": [
+              "web-features:ic"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "106"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "notes": "See <a href='https://bugzil.la/1531223'>bug 1531223</a>."
+                "version_added": "97"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/195176'>bug 195176</a>."
+                "version_added": "15.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -298,46 +330,34 @@
         },
         "lh": {
           "__compat": {
-            "description": "<code>lh</code> unit",
+            "description": "`lh` unit",
+            "spec_url": "https://drafts.csswg.org/css-values/#lh",
+            "tags": [
+              "web-features:lh"
+            ],
             "support": {
               "chrome": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/937104'>bug 937104</a>."
+                "version_added": "109"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "notes": "See <a href='https://bugzil.la/1310170'>bug 1310170</a>."
+                "version_added": "120"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "16.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -346,78 +366,104 @@
             }
           }
         },
-        "mozmm": {
+        "rcap": {
           "__compat": {
-            "description": "<code>mozmm</code> unit",
+            "description": "`rcap` unit",
+            "spec_url": "https://drafts.csswg.org/css-values/#rcap",
+            "tags": [
+              "web-features:rcap"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "118"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": "4",
-                "version_removed": "59"
+                "version_added": false
               },
-              "firefox_android": {
-                "version_added": "4",
-                "version_removed": "59"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "17.2"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
-              "standard_track": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "rch": {
+          "__compat": {
+            "description": "`rch` unit",
+            "spec_url": "https://drafts.csswg.org/css-values/#rch",
+            "tags": [
+              "web-features:rch"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "111"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17.2"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
               "deprecated": false
             }
           }
         },
         "rem": {
           "__compat": {
-            "description": "<code>rem</code> unit",
+            "description": "`rem` unit",
+            "tags": [
+              "web-features:rem"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.6"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "11.6"
               },
@@ -430,12 +476,87 @@
               "safari_ios": {
                 "version_added": "4"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "2"
-              }
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "rex": {
+          "__compat": {
+            "description": "`rex` unit",
+            "spec_url": "https://drafts.csswg.org/css-values/#rex",
+            "tags": [
+              "web-features:rex"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "111"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17.2"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "ric": {
+          "__compat": {
+            "description": "`ric` unit",
+            "spec_url": "https://drafts.csswg.org/css-values/#ric",
+            "tags": [
+              "web-features:ric"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "111"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "17.2"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -446,46 +567,34 @@
         },
         "rlh": {
           "__compat": {
-            "description": "<code>rlh</code> unit",
+            "description": "`rlh` unit",
+            "spec_url": "https://drafts.csswg.org/css-values/#rlh",
+            "tags": [
+              "web-features:rlh"
+            ],
             "support": {
               "chrome": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/937104'>bug 937104</a>."
+                "version_added": "111"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "notes": "See <a href='https://bugzil.la/1310170'>bug 1310170</a>."
+                "version_added": "120"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "16.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -496,46 +605,33 @@
         },
         "vb": {
           "__compat": {
-            "description": "<code>vb</code> unit",
+            "description": "`vb` unit",
+            "tags": [
+              "web-features:viewport-unit-variants"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "108"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "notes": "See <a href='https://bugzil.la/1287034'>bug 1287034</a>."
+                "version_added": "101"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/159801'>bug 159801</a>."
+                "version_added": "15.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -546,46 +642,38 @@
         },
         "vh": {
           "__compat": {
-            "description": "<code>vh</code> unit",
+            "description": "`vh` unit",
+            "tags": [
+              "web-features:viewport-units"
+            ],
             "support": {
               "chrome": {
                 "version_added": "20"
               },
-              "chrome_android": {
-                "version_added": "25"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
+                "notes": "Starting with version 21, viewport-percentage lengths are invalid in `@page`."
               },
-              "firefox_android": {
-                "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "20"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.5"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -596,46 +684,144 @@
         },
         "vi": {
           "__compat": {
-            "description": "<code>vi</code> unit",
+            "description": "`vi` unit",
+            "tags": [
+              "web-features:viewport-unit-variants"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "108"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "notes": "See <a href='https://bugzil.la/1287034'>bug 1287034</a>."
+                "version_added": "101"
               },
-              "firefox_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/159801'>bug 159801</a>."
+                "version_added": "15.4"
               },
-              "safari_ios": {
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "viewport_percentage_units_dynamic": {
+          "__compat": {
+            "description": "`dvb`, `dvh`, `dvi`, `dvmax`, `dvmin`, `dvw` units",
+            "tags": [
+              "web-features:viewport-unit-variants"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "108"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "101"
+              },
+              "firefox_android": "mirror",
+              "ie": {
                 "version_added": false
               },
-              "samsunginternet_android": {
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "viewport_percentage_units_large": {
+          "__compat": {
+            "description": "`lvb`, `lvh`, `lvi`, `lvmax`, `lvmin`, `lvw` units",
+            "tags": [
+              "web-features:viewport-unit-variants"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "108"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "101"
+              },
+              "firefox_android": "mirror",
+              "ie": {
                 "version_added": false
               },
-              "webview_android": {
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "viewport_percentage_units_small": {
+          "__compat": {
+            "description": "`svb`, `svh`, `svi`, `svmax`, `svmin`, `svw` units",
+            "tags": [
+              "web-features:viewport-unit-variants"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "108"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "101"
+              },
+              "firefox_android": "mirror",
+              "ie": {
                 "version_added": false
-              }
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -646,46 +832,38 @@
         },
         "vmax": {
           "__compat": {
-            "description": "<code>vmax</code> unit",
+            "description": "`vmax` unit",
+            "tags": [
+              "web-features:viewport-units"
+            ],
             "support": {
               "chrome": {
                 "version_added": "26"
               },
-              "chrome_android": {
-                "version_added": "26"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "16"
               },
               "firefox": {
                 "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
+                "notes": "Starting with version 21, viewport-percentage lengths are invalid in `@page`."
               },
-              "firefox_android": {
-                "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "15"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "6.1"
+                "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "6.1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.5"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "1.5"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -696,14 +874,15 @@
         },
         "vmin": {
           "__compat": {
-            "description": "<code>vmin</code> unit",
+            "description": "`vmin` unit",
+            "tags": [
+              "web-features:viewport-units"
+            ],
             "support": {
               "chrome": {
                 "version_added": "26"
               },
-              "chrome_android": {
-                "version_added": "26"
-              },
+              "chrome_android": "mirror",
               "edge": [
                 {
                   "version_added": "12"
@@ -715,12 +894,9 @@
               ],
               "firefox": {
                 "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
+                "notes": "Starting with version 21, viewport-percentage lengths are invalid in `@page`."
               },
-              "firefox_android": {
-                "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
-              },
+              "firefox_android": "mirror",
               "ie": [
                 {
                   "version_added": "10"
@@ -730,24 +906,16 @@
                   "version_added": "9"
                 }
               ],
-              "opera": {
-                "version_added": "15"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "6.1"
+                "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "6.1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.5"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -758,46 +926,38 @@
         },
         "vw": {
           "__compat": {
-            "description": "<code>vw</code> unit",
+            "description": "`vw` unit",
+            "tags": [
+              "web-features:viewport-units"
+            ],
             "support": {
               "chrome": {
                 "version_added": "20"
               },
-              "chrome_android": {
-                "version_added": "25"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
+                "notes": "Starting with version 21, viewport-percentage lengths are invalid in `@page`."
               },
-              "firefox_android": {
-                "version_added": "19",
-                "notes": "Starting with version 21, viewport-percentage lengths are invalid in <code>@page</code>."
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "20"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.5"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

@@ -8,48 +8,70 @@
           "chrome": {
             "version_added": "87"
           },
-          "chrome_android": {
-            "version_added": "87"
-          },
-          "edge": {
-            "version_added": "87"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false,
-            "notes": "See <a href='https://bugzil.la/1475599'>bug 1475599</a>."
+            "version_added": "preview"
           },
-          "firefox_android": {
-            "version_added": false,
-            "notes": "See <a href='https://bugzil.la/1475599'>bug 1475599</a>."
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "73"
-          },
-          "opera_android": {
-            "version_added": "62"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false,
-            "notes": "See <a href='https://webkit.org/b/231750'>bug 231750</a>."
+            "impl_url": "https://webkit.org/b/231750"
           },
-          "safari_ios": {
-            "version_added": false,
-            "notes": "See <a href='https://webkit.org/b/231750'>bug 231750</a>."
-          },
-          "samsunginternet_android": {
-            "version_added": "14.0"
-          },
-          "webview_android": {
-            "version_added": "87"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
+        }
+      },
+      "change_event": {
+        "__compat": {
+          "description": "`change` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CookieStore/change_event",
+          "spec_url": [
+            "https://wicg.github.io/cookie-store/#intro-monitor",
+            "https://wicg.github.io/cookie-store/#dom-cookiestore-onchange"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "87"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "preview"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
         }
       },
       "delete": {
@@ -60,44 +82,65 @@
             "chrome": {
               "version_added": "87"
             },
-            "chrome_android": {
-              "version_added": "87"
-            },
-            "edge": {
-              "version_added": "87"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "preview"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "73"
-            },
-            "opera_android": {
-              "version_added": "62"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "87"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
+          }
+        },
+        "partitioned_option": {
+          "__compat": {
+            "description": "`partitioned` option",
+            "spec_url": "https://wicg.github.io/cookie-store/#dom-cookiestoredeleteoptions-partitioned",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
           }
         }
       },
@@ -109,44 +152,65 @@
             "chrome": {
               "version_added": "87"
             },
-            "chrome_android": {
-              "version_added": "87"
-            },
-            "edge": {
-              "version_added": "87"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "preview"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "73"
-            },
-            "opera_android": {
-              "version_added": "62"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "87"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
+          }
+        },
+        "partitioned_return_property": {
+          "__compat": {
+            "description": "`partitioned` in return value",
+            "spec_url": "https://wicg.github.io/cookie-store/#dom-cookielistitem-partitioned",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
           }
         }
       },
@@ -158,93 +222,65 @@
             "chrome": {
               "version_added": "87"
             },
-            "chrome_android": {
-              "version_added": "87"
-            },
-            "edge": {
-              "version_added": "87"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "preview"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "73"
-            },
-            "opera_android": {
-              "version_added": "62"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "87"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
-        }
-      },
-      "onchange": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CookieStore/onchange",
-          "spec_url": "https://wicg.github.io/cookie-store/#dom-cookiestore-onchange",
-          "support": {
-            "chrome": {
-              "version_added": "87"
+        },
+        "partitioned_return_property": {
+          "__compat": {
+            "description": "`partitioned` in return value",
+            "spec_url": "https://wicg.github.io/cookie-store/#dom-cookielistitem-partitioned",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
-            "chrome_android": {
-              "version_added": "87"
-            },
-            "edge": {
-              "version_added": "87"
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "73"
-            },
-            "opera_android": {
-              "version_added": "62"
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "87"
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
             }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
           }
         }
       },
@@ -256,44 +292,65 @@
             "chrome": {
               "version_added": "87"
             },
-            "chrome_android": {
-              "version_added": "87"
-            },
-            "edge": {
-              "version_added": "87"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "preview"
             },
-            "firefox_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "73"
-            },
-            "opera_android": {
-              "version_added": "62"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "87"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
+          }
+        },
+        "partitioned_option": {
+          "__compat": {
+            "description": "`partitioned` option",
+            "spec_url": "https://wicg.github.io/cookie-store/#dom-cookieinit-partitioned",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
           }
         }
       }

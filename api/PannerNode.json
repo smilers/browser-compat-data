@@ -4,57 +4,36 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode",
         "spec_url": "https://webaudio.github.io/web-audio-api/#PannerNode",
+        "tags": [
+          "web-features:web-audio"
+        ],
         "support": {
           "chrome": {
             "version_added": "14"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "12"
           },
           "firefox": {
             "version_added": "25"
           },
-          "firefox_android": {
-            "version_added": "25"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "15"
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "6"
           },
-          "opera_android": {
-            "version_added": "14"
-          },
-          "safari": [
-            {
-              "version_added": "14.1"
-            },
-            {
-              "version_added": "6",
-              "version_removed": "14.1",
-              "prefix": "webkit"
-            }
-          ],
-          "safari_ios": [
-            {
-              "version_added": "14.5"
-            },
-            {
-              "version_added": "6",
-              "version_removed": "14.5",
-              "prefix": "webkit"
-            }
-          ],
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
-            "version_added": "≤37"
-          }
+            "version_added": "4.4.3"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -64,50 +43,35 @@
       },
       "PannerNode": {
         "__compat": {
+          "description": "`PannerNode()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/PannerNode",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-pannernode",
-          "description": "<code>PannerNode()</code> constructor",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
-              "version_added": "55",
-              "notes": "Before Chrome 59, the default values were not supported."
+              "version_added": "55"
             },
-            "chrome_android": {
-              "version_added": "55",
-              "notes": "Before Chrome 59, the default values were not supported."
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "53"
             },
-            "firefox_android": {
-              "version_added": "53"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "42"
-            },
-            "opera_android": {
-              "version_added": "42"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0",
-              "notes": "Before Samsung Internet 7.0, the default values were not supported."
-            },
-            "webview_android": {
-              "version_added": "55",
-              "notes": "Before version 59, the default values were not supported."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -120,43 +84,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/coneInnerAngle",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-coneinnerangle",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -169,43 +126,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/coneOuterAngle",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-coneouterangle",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -218,43 +168,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/coneOuterGain",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-coneoutergain",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -267,43 +210,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/distanceModel",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-distancemodel",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -316,43 +252,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/maxDistance",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-maxdistance",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -365,43 +294,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/orientationX",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationx",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -414,43 +332,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/orientationY",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationy",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -463,43 +370,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/orientationZ",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationz",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -512,43 +408,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/panningModel",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-panningmodel",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -561,43 +450,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/positionX",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-positionx",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -610,43 +488,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/positionY",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-positiony",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -659,43 +526,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/positionZ",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-positionz",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -708,43 +564,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/refDistance",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-refdistance",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -757,43 +606,36 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/rolloffFactor",
           "spec_url": "https://webaudio.github.io/web-audio-api/#dom-pannernode-rollofffactor",
+          "tags": [
+            "web-features:web-audio"
+          ],
           "support": {
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -810,39 +652,29 @@
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "4.4.3"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -859,98 +691,29 @@
             "chrome": {
               "version_added": "14"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "25"
             },
-            "firefox_android": {
-              "version_added": "25"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": true
-          }
-        }
-      },
-      "setVelocity": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PannerNode/setVelocity",
-          "support": {
-            "chrome": {
-              "version_added": "14",
-              "version_removed": "56"
+              "version_added": "4.4.3"
             },
-            "chrome_android": {
-              "version_added": "18",
-              "version_removed": "56"
-            },
-            "edge": {
-              "version_added": "12",
-              "version_removed": "79"
-            },
-            "firefox": {
-              "version_added": "25",
-              "version_removed": "63"
-            },
-            "firefox_android": {
-              "version_added": "25",
-              "version_removed": "63"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "15",
-              "version_removed": "43"
-            },
-            "opera_android": {
-              "version_added": "14",
-              "version_removed": "43"
-            },
-            "safari": {
-              "version_added": "6",
-              "version_removed": "14.1"
-            },
-            "safari_ios": {
-              "version_added": "6",
-              "version_removed": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0",
-              "version_removed": "6.0"
-            },
-            "webview_android": {
-              "version_added": "≤37",
-              "version_removed": "56"
-            }
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

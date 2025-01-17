@@ -4,13 +4,14 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance",
         "spec_url": "https://wicg.github.io/speech-api/#speechsynthesisutterance",
+        "tags": [
+          "web-features:speech-synthesis"
+        ],
         "support": {
           "chrome": {
             "version_added": "33"
           },
-          "chrome_android": {
-            "version_added": "33"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "14"
           },
@@ -23,6 +24,7 @@
           "ie": {
             "version_added": false
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "21"
           },
@@ -32,16 +34,15 @@
           "safari": {
             "version_added": "7"
           },
-          "safari_ios": {
-            "version_added": "7"
-          },
+          "safari_ios": "mirror",
           "samsunginternet_android": {
             "version_added": "3.0"
           },
           "webview_android": {
             "version_added": false,
-            "notes": "See <a href='https://crbug.com/487255'>bug 487255</a>."
-          }
+            "impl_url": "https://crbug.com/40417848"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -51,16 +52,17 @@
       },
       "SpeechSynthesisUtterance": {
         "__compat": {
+          "description": "`SpeechSynthesisUtterance()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/SpeechSynthesisUtterance",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-speechsynthesisutterance",
-          "description": "<code>SpeechSynthesisUtterance()</code> constructor",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -73,6 +75,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -82,15 +85,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -101,18 +103,22 @@
       },
       "boundary_event": {
         "__compat": {
-          "description": "<code>boundary</code> event",
+          "description": "`boundary` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/boundary_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-boundary",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-boundary",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onboundary"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
               "version_added": "33",
               "partial_implementation": true,
-              "notes": "The <code>boundary</code> event does not fire as expected. See <a href='https://crbug.com/1122143'>bug 1122143</a>."
+              "notes": "The `boundary` event does not fire as expected. See [bug 40715888](https://crbug.com/40715888)."
             },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -125,6 +131,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -134,15 +141,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -153,16 +159,20 @@
       },
       "end_event": {
         "__compat": {
-          "description": "<code>end</code> event",
+          "description": "`end` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/end_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-boundary",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-end",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onend"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -175,6 +185,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -184,15 +195,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -203,16 +213,20 @@
       },
       "error_event": {
         "__compat": {
-          "description": "<code>error</code> event",
+          "description": "`error` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/error_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-error",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-error",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onerror"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -225,6 +239,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -234,15 +249,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -255,13 +269,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/lang",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-lang",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -274,6 +289,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -283,15 +299,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -302,16 +317,20 @@
       },
       "mark_event": {
         "__compat": {
-          "description": "<code>mark</code> event",
+          "description": "`mark` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/mark_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-mark",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-mark",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onmark"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -324,6 +343,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -333,360 +353,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onboundary": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onboundary",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onboundary",
-          "support": {
-            "chrome": {
-              "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33",
-              "partial_implementation": true,
-              "notes": "The <code>boundary</code> event does not fire as expected. See <a href='https://crbug.com/1122143'>bug 1122143</a>."
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onend": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onend",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onend",
-          "support": {
-            "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onerror": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onerror",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onerror",
-          "support": {
-            "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onmark": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onmark",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onmark",
-          "support": {
-            "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onpause": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onpause",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onpause",
-          "support": {
-            "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onresume": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onresume",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onresume",
-          "support": {
-            "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onstart": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/onstart",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onstart",
-          "support": {
-            "chrome": {
-              "version_added": "33"
-            },
-            "chrome_android": {
-              "version_added": "33"
-            },
-            "edge": {
-              "version_added": "14"
-            },
-            "firefox": {
-              "version_added": "49"
-            },
-            "firefox_android": {
-              "version_added": "62"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "21"
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -697,16 +371,20 @@
       },
       "pause_event": {
         "__compat": {
-          "description": "<code>pause</code> event",
+          "description": "`pause` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/pause_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-pause",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-pause",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onpause"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -719,6 +397,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -728,15 +407,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -749,13 +427,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/pitch",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-pitch",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -768,6 +447,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -777,15 +457,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -798,13 +477,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/rate",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-rate",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -817,6 +497,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -826,15 +507,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -845,16 +525,20 @@
       },
       "resume_event": {
         "__compat": {
-          "description": "<code>resume</code> event",
+          "description": "`resume` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/resume_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-resume",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-resume",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onresume"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -867,6 +551,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -876,15 +561,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -895,16 +579,20 @@
       },
       "start_event": {
         "__compat": {
-          "description": "<code>start</code> event",
+          "description": "`start` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/start_event",
-          "spec_url": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-start",
+          "spec_url": [
+            "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-start",
+            "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onstart"
+          ],
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -917,6 +605,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -926,15 +615,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -947,13 +635,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/text",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-text",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -966,6 +655,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -975,15 +665,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -996,13 +685,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/voice",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-voice",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -1015,6 +705,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -1024,15 +715,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1045,13 +735,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/volume",
           "spec_url": "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-volume",
+          "tags": [
+            "web-features:speech-synthesis"
+          ],
           "support": {
             "chrome": {
               "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": "33"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -1064,6 +755,7 @@
             "ie": {
               "version_added": false
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "21"
             },
@@ -1073,15 +765,14 @@
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "3.0"
             },
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

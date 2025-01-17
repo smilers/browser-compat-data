@@ -4,44 +4,41 @@
       "radialGradient": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/radialGradient",
-          "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradients",
+          "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElement",
+          "tags": [
+            "web-features:svg"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "9"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "10.1"
             },
             "safari": {
-              "version_added": "3.1"
+              "version_added": "3"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "3"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -51,43 +48,34 @@
         },
         "cx": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/cx",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCXAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -98,43 +86,34 @@
         },
         "cy": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/cy",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCYAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -145,43 +124,34 @@
         },
         "fr": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fr",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFRAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "24"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -192,43 +162,34 @@
         },
         "fx": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fx",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFXAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -239,43 +200,34 @@
         },
         "fy": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fy",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFYAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -286,43 +238,34 @@
         },
         "gradientTransform": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/gradientTransform",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientTransformAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -333,43 +276,34 @@
         },
         "gradientUnits": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/gradientUnits",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -380,43 +314,36 @@
         },
         "href": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/href",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementHrefAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "50"
               },
-              "chrome_android": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": null
+                "version_added": "12"
               },
               "firefox": {
-                "version_added": null
+                "version_added": "51"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": "≤11"
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "12.1"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -427,43 +354,34 @@
         },
         "r": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/r",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementRAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -474,43 +392,34 @@
         },
         "spreadMethod": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/spreadMethod",
+            "spec_url": "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementSpreadMethodAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -521,44 +430,31 @@
         },
         "xlink_href": {
           "__compat": {
-            "description": "<code>xlink:href</code>",
+            "description": "`xlink:href`",
+            "spec_url": "https://svgwg.org/svg2-draft/linking.html#XLinkHrefAttribute",
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": null
-              },
-              "edge": {
-                "version_added": null
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "1.5"
               },
-              "firefox_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
               "ie": {
-                "version_added": null
+                "version_added": false
               },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3"
               },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": null
-              },
-              "webview_android": {
-                "version_added": null
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

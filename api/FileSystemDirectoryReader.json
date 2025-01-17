@@ -6,47 +6,31 @@
         "spec_url": "https://wicg.github.io/entries-api/#api-directoryreader",
         "support": {
           "chrome": {
-            "version_added": "8",
-            "alternative_name": "DirectoryReader"
+            "version_added": "8"
           },
-          "chrome_android": {
-            "version_added": "18",
-            "alternative_name": "DirectoryReader"
-          },
+          "chrome_android": "mirror",
           "edge": {
-            "version_added": "≤18",
-            "alternative_name": "WebKitDirectoryReader"
+            "version_added": "≤18"
           },
           "firefox": {
             "version_added": "50"
           },
-          "firefox_android": {
-            "version_added": "50"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": true,
-            "prefix": "webkit"
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "11.1"
           },
-          "safari_ios": {
-            "version_added": "11.3"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0",
-            "alternative_name": "DirectoryReader"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
-            "version_added": "≤37",
-            "alternative_name": "DirectoryReader"
-          }
+            "version_added": "≤37"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -62,39 +46,27 @@
             "chrome": {
               "version_added": "8"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "50"
             },
-            "firefox_android": {
-              "version_added": "50"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": null
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "11.1"
             },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

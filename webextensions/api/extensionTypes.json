@@ -2,12 +2,61 @@
   "webextensions": {
     "api": {
       "extensionTypes": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes",
+          "support": {
+            "chrome": {
+              "version_added": "≤20"
+            },
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "45"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "opera": "mirror",
+            "safari": {
+              "version_added": "14",
+              "partial_implementation": true,
+              "notes": "These features are not exposed through the `extensionTypes` object."
+            },
+            "safari_ios": {
+              "version_added": "15",
+              "partial_implementation": true,
+              "notes": "These features are not exposed through the `extensionTypes` object."
+            }
+          }
+        },
+        "CSSOrigin": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "53"
+              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": {
+                "version_added": "18",
+                "partial_implementation": true,
+                "notes": "This feature is supported but not exposed through the `extensionTypes` object."
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
         "ImageDetails": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageDetails",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤58"
               },
               "edge": {
                 "version_added": "14"
@@ -18,15 +67,11 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
-                "version_added": "14"
+                "version_added": false
               },
-              "safari_ios": {
-                "version_added": "15"
-              }
+              "safari_ios": "mirror"
             }
           },
           "rect": {
@@ -35,24 +80,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "82"
                 },
-                "firefox_android": {
-                  "version_added": "82"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
                 },
-                "safari_ios": {
-                  "version_added": false
-                }
+                "safari_ios": "mirror"
               }
             }
           },
@@ -62,24 +99,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "82"
                 },
-                "firefox_android": {
-                  "version_added": "82"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
                 },
-                "safari_ios": {
-                  "version_added": false
-                }
+                "safari_ios": "mirror"
               }
             }
           }
@@ -89,7 +118,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageFormat",
             "support": {
               "chrome": {
-                "version_added": true,
+                "version_added": "≤58",
                 "partial_implementation": true,
                 "notes": "This feature is supported but not exposed through the 'extensionTypes' object."
               },
@@ -104,11 +133,7 @@
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": true,
-                "partial_implementation": true,
-                "notes": "This feature is supported but not exposed through the 'extensionTypes' object."
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14",
                 "partial_implementation": true,
@@ -131,22 +156,14 @@
                 "partial_implementation": true,
                 "notes": "This feature is supported but not exposed through the 'extensionTypes' object."
               },
-              "edge": {
-                "version_added": "79",
-                "partial_implementation": true,
-                "notes": "This feature is supported but not exposed through the 'extensionTypes' object."
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "45"
               },
               "firefox_android": {
                 "version_added": "48"
               },
-              "opera": {
-                "version_added": "15",
-                "partial_implementation": true,
-                "notes": "This feature is supported but not exposed through the 'extensionTypes' object."
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14",
                 "partial_implementation": true,
@@ -162,33 +179,6 @@
                   "This feature is supported but not exposed through the 'extensionTypes' object.",
                   "'document_idle' and 'document_end' are treated the same."
                 ]
-              }
-            }
-          }
-        },
-        "CSSOrigin": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": "53"
-              },
-              "firefox_android": {
-                "version_added": "53"
-              },
-              "opera": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": {
-                "version_added": false
               }
             }
           }

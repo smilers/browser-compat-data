@@ -1,0 +1,141 @@
+{
+  "javascript": {
+    "builtins": {
+      "Intl": {
+        "Segments": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments",
+            "spec_url": "https://tc39.es/ecma402/#sec-segments-objects",
+            "tags": [
+              "web-features:intl-segmenter"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "87"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.8"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "125"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": "16.0.0"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "14.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          },
+          "containing": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments/containing",
+              "spec_url": "https://tc39.es/ecma402/#sec-%segmentsprototype%.containing",
+              "tags": [
+                "web-features:intl-segmenter"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "87"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.8"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "125"
+                },
+                "firefox_android": "mirror",
+                "ie": {
+                  "version_added": false
+                },
+                "nodejs": {
+                  "version_added": "16.0.0"
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "14.1"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "@@iterator": {
+            "__compat": {
+              "description": "[Symbol.iterator]",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments/Symbol.iterator",
+              "spec_url": "https://tc39.es/ecma402/#sec-%intlsegmentsprototype%-%symbol.iterator%",
+              "tags": [
+                "web-features:intl-segmenter"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "87"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.8"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "125"
+                },
+                "firefox_android": "mirror",
+                "ie": {
+                  "version_added": false
+                },
+                "nodejs": {
+                  "version_added": "16.0.0"
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "14.1"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
